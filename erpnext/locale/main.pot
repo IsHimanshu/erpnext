@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ERPNext VERSION\n"
 "Report-Msgid-Bugs-To: hello@frappe.io\n"
-"POT-Creation-Date: 2025-07-20 09:37+0000\n"
-"PO-Revision-Date: 2025-07-20 09:37+0000\n"
+"POT-Creation-Date: 2025-07-29 01:16+0000\n"
+"PO-Revision-Date: 2025-07-29 01:16+0000\n"
 "Last-Translator: hello@frappe.io\n"
 "Language-Team: hello@frappe.io\n"
 "MIME-Version: 1.0\n"
@@ -29,6 +29,7 @@ msgstr ""
 msgid " Amount"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:119
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:114
 msgid " BOM"
 msgstr ""
@@ -43,6 +44,7 @@ msgstr ""
 msgid " Is Subcontracted"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:178
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:174
 msgid " Item"
 msgstr ""
@@ -58,6 +60,7 @@ msgstr ""
 msgid " Rate"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:127
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:122
 msgid " Raw Material"
 msgstr ""
@@ -72,6 +75,8 @@ msgstr ""
 msgid " Skip Material Transfer"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:138
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:167
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:133
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:163
 msgid " Sub Assembly"
@@ -93,6 +98,7 @@ msgstr ""
 msgid "\"Is Fixed Asset\" cannot be unchecked, as Asset record exists against the item"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2373
 #: erpnext/public/js/utils/serial_no_batch_selector.js:262
 msgid "\"SN-01::10\" for \"SN-01\" to \"SN-10\""
 msgstr ""
@@ -299,8 +305,8 @@ msgstr ""
 msgid "'{0}' has been already added."
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:208
-#: erpnext/setup/doctype/company/company.py:219
+#: erpnext/setup/doctype/company/company.py:206
+#: erpnext/setup/doctype/company/company.py:217
 msgid "'{0}' should be in company currency {1}."
 msgstr ""
 
@@ -580,6 +586,7 @@ msgstr ""
 msgid "<div class=\"text-muted text-center\">No Matching Bank Transactions Found</div>"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:489
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:262
 msgid "<div class=\"text-muted text-center\">{0}</div>"
 msgstr ""
@@ -965,7 +972,7 @@ msgstr ""
 msgid "A Reconciliation Job {0} is running for the same filters. Cannot reconcile now"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:946
+#: erpnext/setup/doctype/company/company.py:944
 msgid "A Transaction Deletion Document: {0} is triggered for {0}"
 msgstr ""
 
@@ -1085,11 +1092,11 @@ msgstr ""
 msgid "Abbreviation"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:167
+#: erpnext/setup/doctype/company/company.py:165
 msgid "Abbreviation already used for another company"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:164
+#: erpnext/setup/doctype/company/company.py:162
 msgid "Abbreviation is mandatory"
 msgstr ""
 
@@ -1164,6 +1171,7 @@ msgstr ""
 
 #. Label of the qty (Float) field in DocType 'Purchase Receipt Item'
 #. Label of the qty (Float) field in DocType 'Subcontracting Receipt Item'
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6186
 #: erpnext/public/js/controllers/transaction.js:2417
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
 #: erpnext/subcontracting/doctype/subcontracting_receipt_item/subcontracting_receipt_item.json
@@ -1501,7 +1509,7 @@ msgstr ""
 msgid "Account {0} added multiple times"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:190
+#: erpnext/setup/doctype/company/company.py:188
 msgid "Account {0} does not belong to company: {1}"
 msgstr ""
 
@@ -1901,6 +1909,8 @@ msgstr ""
 
 #: erpnext/accounts/doctype/invoice_discounting/invoice_discounting.js:193
 #: erpnext/buying/doctype/supplier/supplier.js:85
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2124
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7969
 #: erpnext/public/js/controllers/stock_controller.js:84
 #: erpnext/public/js/utils/ledger_preview.js:8
 #: erpnext/selling/doctype/customer/customer.js:169
@@ -1954,7 +1964,7 @@ msgstr ""
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/selling/doctype/customer/customer.json
 #: erpnext/setup/doctype/company/company.json
-#: erpnext/setup/doctype/company/company.py:348
+#: erpnext/setup/doctype/company/company.py:346
 #: erpnext/setup/doctype/customer_group/customer_group.json
 #: erpnext/setup/doctype/email_digest/email_digest.json
 #: erpnext/setup/doctype/incoterm/incoterm.json
@@ -2326,6 +2336,7 @@ msgid "Acre (US)"
 msgstr ""
 
 #: erpnext/crm/doctype/lead/lead.js:41
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:403
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:175
 msgid "Action"
 msgstr ""
@@ -2440,6 +2451,9 @@ msgstr ""
 #: erpnext/projects/doctype/project/project.js:87
 #: erpnext/projects/doctype/project/project.js:95
 #: erpnext/projects/doctype/project/project.js:151
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:82
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:113
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8077
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:88
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:121
 #: erpnext/public/js/utils/unreconcile.js:29
@@ -2534,7 +2548,7 @@ msgstr ""
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
 #: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.py:32
 #: erpnext/projects/workspace/projects/projects.json
-#: erpnext/public/js/projects/timer.js:9
+#: erpnext/public/js/projects/timer.js:11
 #: erpnext/templates/pages/timelog_info.html:25
 msgid "Activity Type"
 msgstr ""
@@ -2710,6 +2724,7 @@ msgid "Actual qty in stock"
 msgstr ""
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1490
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9369
 #: erpnext/public/js/controllers/accounts.js:176
 msgid "Actual type tax cannot be included in Item rate in row {0}"
 msgstr ""
@@ -2723,6 +2738,12 @@ msgstr ""
 #: erpnext/crm/doctype/lead/lead.js:84
 #: erpnext/manufacturing/doctype/bom/bom.js:922
 #: erpnext/manufacturing/doctype/plant_floor/stock_summary_template.html:55
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:235
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:260
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:383
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2155
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2306
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8808
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:235
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:264
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:399
@@ -2761,6 +2782,8 @@ msgstr ""
 msgid "Add Customers"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:784
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1091
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:442
 msgid "Add Discount"
@@ -2770,12 +2793,16 @@ msgstr ""
 msgid "Add Employees"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:234
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:262
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:234
 #: erpnext/selling/doctype/sales_order/sales_order.js:254
 #: erpnext/stock/dashboard/item_dashboard.js:216
 msgid "Add Item"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6641
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6655
 #: erpnext/public/js/utils/item_selector.js:20
 #: erpnext/public/js/utils/item_selector.js:35
 msgid "Add Items"
@@ -2818,6 +2845,7 @@ msgstr ""
 msgid "Add Or Deduct"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:940
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:280
 msgid "Add Order Discount"
 msgstr ""
@@ -2880,6 +2908,8 @@ msgstr ""
 msgid "Add Stock"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:256
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:376
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:259
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:390
 msgid "Add Sub Assembly"
@@ -2905,6 +2935,7 @@ msgstr ""
 msgid "Add Weekly Holidays"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8780
 #: erpnext/public/js/utils/crm_activities.js:144
 msgid "Add a Note"
 msgstr ""
@@ -2967,6 +2998,8 @@ msgstr ""
 msgid "Added Supplier Role to User {0}."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6682
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6697
 #: erpnext/public/js/utils/item_selector.js:70
 #: erpnext/public/js/utils/item_selector.js:86
 msgid "Added {0} ({1})"
@@ -2980,6 +3013,7 @@ msgstr ""
 msgid "Adding Lead to Prospect..."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1099
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:450
 msgid "Additional"
 msgstr ""
@@ -3173,11 +3207,13 @@ msgstr ""
 #. Label of the other_info_tab (Section Break) field in DocType 'Lead'
 #. Label of the additional_information (Text) field in DocType 'Quality Review'
 #: erpnext/crm/doctype/lead/lead.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2154
 #: erpnext/quality_management/doctype/quality_review/quality_review.json
 #: erpnext/selling/page/point_of_sale/pos_payment.js:59
 msgid "Additional Information"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2179
 #: erpnext/selling/page/point_of_sale/pos_payment.js:85
 msgid "Additional Information updated successfully."
 msgstr ""
@@ -3349,12 +3385,14 @@ msgid "Address HTML"
 msgstr ""
 
 #. Label of the address_line_1 (Data) field in DocType 'Warehouse'
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7589
 #: erpnext/public/js/utils/contact_address_quick_entry.js:76
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "Address Line 1"
 msgstr ""
 
 #. Label of the address_line_2 (Data) field in DocType 'Warehouse'
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7594
 #: erpnext/public/js/utils/contact_address_quick_entry.js:81
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "Address Line 2"
@@ -3911,21 +3949,21 @@ msgstr ""
 #: erpnext/patches/v11_0/update_department_lft_rgt.py:9
 #: erpnext/patches/v11_0/update_department_lft_rgt.py:11
 #: erpnext/patches/v11_0/update_department_lft_rgt.py:16
-#: erpnext/setup/doctype/company/company.py:341
-#: erpnext/setup/doctype/company/company.py:344
-#: erpnext/setup/doctype/company/company.py:349
-#: erpnext/setup/doctype/company/company.py:355
-#: erpnext/setup/doctype/company/company.py:361
-#: erpnext/setup/doctype/company/company.py:367
-#: erpnext/setup/doctype/company/company.py:373
-#: erpnext/setup/doctype/company/company.py:379
-#: erpnext/setup/doctype/company/company.py:385
-#: erpnext/setup/doctype/company/company.py:391
-#: erpnext/setup/doctype/company/company.py:397
-#: erpnext/setup/doctype/company/company.py:403
-#: erpnext/setup/doctype/company/company.py:409
-#: erpnext/setup/doctype/company/company.py:415
-#: erpnext/setup/doctype/company/company.py:421
+#: erpnext/setup/doctype/company/company.py:339
+#: erpnext/setup/doctype/company/company.py:342
+#: erpnext/setup/doctype/company/company.py:347
+#: erpnext/setup/doctype/company/company.py:353
+#: erpnext/setup/doctype/company/company.py:359
+#: erpnext/setup/doctype/company/company.py:365
+#: erpnext/setup/doctype/company/company.py:371
+#: erpnext/setup/doctype/company/company.py:377
+#: erpnext/setup/doctype/company/company.py:383
+#: erpnext/setup/doctype/company/company.py:389
+#: erpnext/setup/doctype/company/company.py:395
+#: erpnext/setup/doctype/company/company.py:401
+#: erpnext/setup/doctype/company/company.py:407
+#: erpnext/setup/doctype/company/company.py:413
+#: erpnext/setup/doctype/company/company.py:419
 msgid "All Departments"
 msgstr ""
 
@@ -3945,6 +3983,7 @@ msgstr ""
 msgid "All Item Groups"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:399
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:25
 msgid "All Items"
 msgstr ""
@@ -4001,7 +4040,7 @@ msgstr ""
 msgid "All Territories"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:286
+#: erpnext/setup/doctype/company/company.py:284
 msgid "All Warehouses"
 msgstr ""
 
@@ -4031,6 +4070,7 @@ msgstr ""
 msgid "All items have already been transferred for this Work Order."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6286
 #: erpnext/public/js/controllers/transaction.js:2521
 msgid "All items in this document already have a linked Quality Inspection."
 msgstr ""
@@ -4041,6 +4081,7 @@ msgstr ""
 msgid "All the Comments and Emails will be copied from one document to another newly created document(Lead -> Opportunity -> Quotation) throughout the CRM documents."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3021
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:200
 msgid "All the items have been already returned."
 msgstr ""
@@ -4115,6 +4156,7 @@ msgstr ""
 #: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
 #: erpnext/accounts/doctype/unreconcile_payment_entries/unreconcile_payment_entries.json
 #: erpnext/accounts/report/gross_profit/gross_profit.py:378
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8129
 #: erpnext/public/js/utils/unreconcile.js:87
 msgid "Allocated Amount"
 msgstr ""
@@ -4156,6 +4198,7 @@ msgstr ""
 #. Label of the allocations (Table) field in DocType 'Unreconcile Payment'
 #: erpnext/accounts/doctype/process_payment_reconciliation_log/process_payment_reconciliation_log.json
 #: erpnext/accounts/doctype/unreconcile_payment/unreconcile_payment.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8146
 #: erpnext/public/js/utils/unreconcile.js:104
 msgid "Allocations"
 msgstr ""
@@ -4508,6 +4551,11 @@ msgstr ""
 msgid "Allow transferring raw materials even after the Required Quantity is fulfilled"
 msgstr ""
 
+#. Label of the allowance (Int) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Allowance range"
+msgstr ""
+
 #. Label of the allowed (Check) field in DocType 'Repost Allowed Types'
 #: erpnext/accounts/doctype/repost_allowed_types/repost_allowed_types.json
 msgid "Allowed"
@@ -4599,6 +4647,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom/bom.js:200
 #: erpnext/manufacturing/doctype/work_order/work_order.js:151
 #: erpnext/manufacturing/doctype/work_order/work_order.js:166
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:448
 #: erpnext/public/js/utils.js:508
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:255
 msgid "Alternate Item"
@@ -4955,6 +5004,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 #: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:745
 #: erpnext/selling/doctype/quotation/quotation.js:299
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
@@ -5156,6 +5206,8 @@ msgstr ""
 msgid "An error has been appeared while reposting item valuation via {0}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9922
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10309
 #: erpnext/public/js/controllers/buying.js:331
 #: erpnext/public/js/utils/sales_common.js:463
 msgid "An error occurred during the update process"
@@ -5185,6 +5237,7 @@ msgstr ""
 msgid "Annual"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:103
 #: erpnext/public/js/utils.js:93
 msgid "Annual Billing: {0}"
 msgstr ""
@@ -5261,7 +5314,6 @@ msgstr ""
 #. 'Inventory Dimension'
 #: erpnext/accounts/doctype/pricing_rule/pricing_rule.json
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.json
-#: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.py:262
 #: erpnext/stock/doctype/inventory_dimension/inventory_dimension.json
 msgid "Applicable For"
 msgstr ""
@@ -5358,6 +5410,11 @@ msgstr ""
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:10
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:10
 msgid "Application of Funds (Assets)"
+msgstr ""
+
+#. Label of the applications_tab (Tab Break) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Applications"
 msgstr ""
 
 #: erpnext/templates/includes/order/order_taxes.html:70
@@ -5615,10 +5672,12 @@ msgstr ""
 msgid "Are"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10590
 #: erpnext/public/js/utils/demo.js:20
 msgid "Are you sure you want to clear all demo data?"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:428
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:451
 msgid "Are you sure you want to delete this Item?"
 msgstr ""
@@ -6354,6 +6413,7 @@ msgstr ""
 msgid "Attach .csv file with two columns, one for the old name and one for the new name"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2356
 #: erpnext/public/js/utils/serial_no_batch_selector.js:244
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:73
 msgid "Attach CSV File"
@@ -6520,10 +6580,12 @@ msgstr ""
 msgid "Auto Email Report"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2464
 #: erpnext/public/js/utils/serial_no_batch_selector.js:368
 msgid "Auto Fetch"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1843
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:225
 msgid "Auto Fetch Serial Numbers"
 msgstr ""
@@ -6668,6 +6730,8 @@ msgstr ""
 msgid "Auto re-order"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9917
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10307
 #: erpnext/public/js/controllers/buying.js:329
 #: erpnext/public/js/utils/sales_common.js:458
 msgid "Auto repeat document updated"
@@ -6761,6 +6825,7 @@ msgstr ""
 #. 'Delivery Note Item'
 #: erpnext/manufacturing/doctype/workstation/workstation.js:505
 #: erpnext/manufacturing/report/bom_stock_calculated/bom_stock_calculated.py:80
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:508
 #: erpnext/public/js/utils.js:568
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/report/stock_ageing/stock_ageing.py:167
@@ -6849,6 +6914,7 @@ msgstr ""
 msgid "Available quantity is {0}, you need {1}"
 msgstr ""
 
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:297
 #: erpnext/stock/dashboard/item_dashboard.js:251
 msgid "Available {0}"
 msgstr ""
@@ -7346,6 +7412,7 @@ msgstr ""
 #: erpnext/accounts/doctype/account/account.json
 #: erpnext/accounts/report/balance_sheet/balance_sheet.json
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10705
 #: erpnext/public/js/financial_statements.js:124
 #: erpnext/setup/doctype/email_digest/email_digest.json
 msgid "Balance Sheet"
@@ -7629,14 +7696,17 @@ msgstr ""
 msgid "Bank Transaction Payments"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:713
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:493
 msgid "Bank Transaction {0} Matched"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:759
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:541
 msgid "Bank Transaction {0} added as Journal Entry"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:735
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:516
 msgid "Bank Transaction {0} added as Payment Entry"
 msgstr ""
@@ -7645,6 +7715,7 @@ msgstr ""
 msgid "Bank Transaction {0} is already fully reconciled"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:778
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:561
 msgid "Bank Transaction {0} updated"
 msgstr ""
@@ -7699,6 +7770,7 @@ msgstr ""
 #: erpnext/accounts/doctype/pos_invoice_item/pos_invoice_item.json
 #: erpnext/accounts/doctype/sales_invoice_item/sales_invoice_item.json
 #: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8426
 #: erpnext/public/js/utils/barcode_scanner.js:282
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/item_barcode/item_barcode.json
@@ -7822,6 +7894,8 @@ msgstr ""
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:38
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.js:16
 #: erpnext/manufacturing/report/work_order_summary/work_order_summary.js:15
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10862
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10943
 #: erpnext/public/js/purchase_trends_filters.js:45
 #: erpnext/public/js/sales_trends_filters.js:20
 #: erpnext/selling/report/sales_analytics/sales_analytics.js:24
@@ -7971,6 +8045,9 @@ msgstr ""
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 #: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.js:89
 #: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.py:115
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2530
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6212
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8406
 #: erpnext/public/js/controllers/transaction.js:2443
 #: erpnext/public/js/utils/barcode_scanner.js:260
 #: erpnext/public/js/utils/serial_no_batch_selector.js:438
@@ -8019,6 +8096,8 @@ msgstr ""
 msgid "Batch No."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2154
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2305
 #: erpnext/public/js/utils/serial_no_batch_selector.js:16
 #: erpnext/public/js/utils/serial_no_batch_selector.js:190
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:50
@@ -8289,6 +8368,7 @@ msgstr ""
 msgid "Billing Currency"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10937
 #: erpnext/public/js/purchase_trends_filters.js:39
 msgid "Billing Date"
 msgstr ""
@@ -8336,8 +8416,10 @@ msgstr ""
 #. Label of the billing_rate (Currency) field in DocType 'Timesheet Detail'
 #. Label of the base_billing_rate (Currency) field in DocType 'Timesheet
 #. Detail'
+#. Label of the billing_rate (Int) field in DocType 'Employee'
 #: erpnext/projects/doctype/activity_cost/activity_cost.json
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+#: erpnext/setup/doctype/employee/employee.json
 msgid "Billing Rate"
 msgstr ""
 
@@ -9147,6 +9229,7 @@ msgstr ""
 msgid "Call Again"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7678
 #: erpnext/public/js/call_popup/call_popup.js:41
 msgid "Call Connected"
 msgstr ""
@@ -9162,6 +9245,7 @@ msgstr ""
 msgid "Call Duration in seconds"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7685
 #: erpnext/public/js/call_popup/call_popup.js:48
 msgid "Call Ended"
 msgstr ""
@@ -9177,6 +9261,7 @@ msgstr ""
 msgid "Call Log"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7682
 #: erpnext/public/js/call_popup/call_popup.js:45
 msgid "Call Missed"
 msgstr ""
@@ -9203,12 +9288,14 @@ msgid "Call Schedule Row {0}: To time slot should always be ahead of From time s
 msgstr ""
 
 #. Label of the section_break_11 (Section Break) field in DocType 'Call Log'
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7792
 #: erpnext/public/js/call_popup/call_popup.js:164
 #: erpnext/telephony/doctype/call_log/call_log.json
 #: erpnext/telephony/doctype/call_log/call_log.py:133
 msgid "Call Summary"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7813
 #: erpnext/public/js/call_popup/call_popup.js:186
 msgid "Call Summary Saved"
 msgstr ""
@@ -9362,6 +9449,7 @@ msgstr ""
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1458
 #: erpnext/controllers/accounts_controller.py:3064
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9290
 #: erpnext/public/js/controllers/accounts.js:90
 msgid "Can refer row only if the charge type is 'On Previous Row Amount' or 'Previous Row Total'"
 msgstr ""
@@ -9537,7 +9625,7 @@ msgstr ""
 msgid "Cannot Optimize Route as Driver Address is Missing."
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:182
+#: erpnext/setup/doctype/employee/employee.py:270
 msgid "Cannot Relieve Employee"
 msgstr ""
 
@@ -9601,7 +9689,7 @@ msgstr ""
 msgid "Cannot change Variant properties after stock transaction. You will have to make a new Item to do this."
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:235
+#: erpnext/setup/doctype/company/company.py:233
 msgid "Cannot change company's default currency, because there are existing transactions. Transactions must be cancelled to change the default currency."
 msgstr ""
 
@@ -9680,6 +9768,7 @@ msgstr ""
 msgid "Cannot ensure delivery by Serial No as Item {0} is added with and without Ensure Delivery by Serial No."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8235
 #: erpnext/public/js/utils/barcode_scanner.js:54
 msgid "Cannot find Item with this Barcode"
 msgstr ""
@@ -9710,6 +9799,7 @@ msgstr ""
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1475
 #: erpnext/controllers/accounts_controller.py:3079
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9300
 #: erpnext/public/js/controllers/accounts.js:100
 msgid "Cannot refer row number greater than or equal to current row number for this Charge type"
 msgstr ""
@@ -9726,6 +9816,8 @@ msgstr ""
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1646
 #: erpnext/accounts/doctype/payment_entry/payment_entry.py:1894
 #: erpnext/controllers/accounts_controller.py:3069
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:3548
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9294
 #: erpnext/public/js/controllers/accounts.js:94
 #: erpnext/public/js/controllers/taxes_and_totals.js:470
 msgid "Cannot select charge type as 'On Previous Row Amount' or 'On Previous Row Total' for first row"
@@ -9897,6 +9989,7 @@ msgstr ""
 msgid "Cash Flow"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10713
 #: erpnext/public/js/financial_statements.js:134
 msgid "Cash Flow Statement"
 msgstr ""
@@ -10109,6 +10202,7 @@ msgstr ""
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:306
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2676
 #: erpnext/selling/page/point_of_sale/pos_payment.js:679
 msgid "Change Amount"
 msgstr ""
@@ -10303,11 +10397,14 @@ msgstr ""
 msgid "Checking this will round off the tax amount to the nearest integer"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:784
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:835
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:148
 msgid "Checkout"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:923
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:263
 msgid "Checkout Order / Submit Order / New Order"
 msgstr ""
@@ -10354,6 +10451,7 @@ msgstr ""
 
 #. Label of the reference_date (Date) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6124
 #: erpnext/public/js/controllers/transaction.js:2354
 msgid "Cheque/Reference Date"
 msgstr ""
@@ -10402,6 +10500,7 @@ msgstr ""
 
 #. Label of the child_row_reference (Data) field in DocType 'Quality
 #. Inspection'
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6218
 #: erpnext/public/js/controllers/transaction.js:2449
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.json
 msgid "Child Row Reference"
@@ -10429,6 +10528,7 @@ msgstr ""
 #: erpnext/crm/doctype/lead/lead.json
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/report/lead_details/lead_details.py:60
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7607
 #: erpnext/public/js/utils/contact_address_quick_entry.js:94
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "City"
@@ -10450,6 +10550,7 @@ msgstr ""
 msgid "Clauses and Conditions"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10583
 #: erpnext/public/js/utils/demo.js:11
 msgid "Clear Demo Data"
 msgstr ""
@@ -10494,6 +10595,7 @@ msgstr ""
 msgid "Clearance Date updated"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10594
 #: erpnext/public/js/utils/demo.js:24
 msgid "Clearing Demo Data..."
 msgstr ""
@@ -10520,6 +10622,7 @@ msgstr ""
 msgid "Click on the link below to verify your email and confirm the appointment"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1130
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:485
 msgid "Click to add email / phone"
 msgstr ""
@@ -10561,6 +10664,7 @@ msgstr ""
 msgid "Close Replied Opportunity After Days"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3495
 #: erpnext/selling/page/point_of_sale/pos_controller.js:253
 msgid "Close the POS"
 msgstr ""
@@ -10671,10 +10775,12 @@ msgstr ""
 msgid "Closing Balance"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:202
 #: erpnext/public/js/bank_reconciliation_tool/number_card.js:18
 msgid "Closing Balance as per Bank Statement"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:208
 #: erpnext/public/js/bank_reconciliation_tool/number_card.js:24
 msgid "Closing Balance as per ERP"
 msgstr ""
@@ -10715,6 +10821,9 @@ msgstr ""
 msgid "Cold Calling"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:149
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:155
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:196
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:144
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:151
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:194
@@ -11210,6 +11319,10 @@ msgstr ""
 #: erpnext/projects/doctype/timesheet/timesheet.json
 #: erpnext/projects/report/project_summary/project_summary.js:8
 #: erpnext/projects/report/project_wise_stock_tracking/project_wise_stock_tracking.py:44
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10724
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10893
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10906
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3334
 #: erpnext/public/js/financial_statements.js:146
 #: erpnext/public/js/purchase_trends_filters.js:8
 #: erpnext/public/js/sales_trends_filters.js:51
@@ -11569,6 +11682,7 @@ msgstr ""
 #. Label of the competitors (Table MultiSelect) field in DocType 'Opportunity'
 #. Label of the competitors (Table MultiSelect) field in DocType 'Quotation'
 #: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9983
 #: erpnext/public/js/utils/sales_common.js:530
 #: erpnext/selling/doctype/quotation/quotation.json
 msgid "Competitors"
@@ -11577,7 +11691,7 @@ msgstr ""
 #. Option for the 'Status' (Select) field in DocType 'Job Card Operation'
 #: erpnext/manufacturing/doctype/job_card_operation/job_card_operation.json
 #: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:73
-#: erpnext/public/js/projects/timer.js:35
+#: erpnext/public/js/projects/timer.js:37
 msgid "Complete"
 msgstr ""
 
@@ -11586,6 +11700,7 @@ msgstr ""
 msgid "Complete Job"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2119
 #: erpnext/selling/page/point_of_sale/pos_payment.js:24
 msgid "Complete Order"
 msgstr ""
@@ -11812,6 +11927,7 @@ msgstr ""
 msgid "Configuration"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:66
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:56
 msgid "Configure Product Assembly"
 msgstr ""
@@ -12160,6 +12276,7 @@ msgstr ""
 msgid "Contact Desc"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1455
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:891
 msgid "Contact Details"
 msgstr ""
@@ -12355,6 +12472,7 @@ msgid "Content Type"
 msgstr ""
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.js:162
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6138
 #: erpnext/public/js/controllers/transaction.js:2367
 #: erpnext/selling/doctype/quotation/quotation.js:357
 msgid "Continue"
@@ -12496,6 +12614,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 #: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:740
 #: erpnext/public/js/utils.js:810
 #: erpnext/stock/doctype/packed_item/packed_item.json
 #: erpnext/stock/doctype/purchase_receipt_item/purchase_receipt_item.json
@@ -12783,6 +12902,7 @@ msgstr ""
 #: erpnext/buying/doctype/supplier_quotation_item/supplier_quotation_item.json
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.js:15
 #: erpnext/buying/report/procurement_tracker/procurement_tracker.py:32
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10812
 #: erpnext/public/js/financial_statements.js:239
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/doctype/sales_order_item/sales_order_item.json
@@ -12836,6 +12956,7 @@ msgstr ""
 msgid "Cost Center and Budgeting"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9949
 #: erpnext/public/js/utils/sales_common.js:491
 msgid "Cost Center for Item rows has been updated to {0}"
 msgstr ""
@@ -13045,6 +13166,7 @@ msgstr ""
 #: erpnext/crm/doctype/lead/lead.json
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/report/lead_details/lead_details.py:63
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7617
 #: erpnext/public/js/utils/contact_address_quick_entry.js:104
 #: erpnext/setup/doctype/company/company.json
 #: erpnext/setup/doctype/global_defaults/global_defaults.json
@@ -13177,6 +13299,8 @@ msgstr ""
 #: erpnext/manufacturing/doctype/work_order/work_order.js:366
 #: erpnext/manufacturing/doctype/work_order/work_order.js:946
 #: erpnext/projects/doctype/task/task_tree.js:81
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:4303
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6258
 #: erpnext/public/js/communication.js:19 erpnext/public/js/communication.js:31
 #: erpnext/public/js/communication.js:41
 #: erpnext/public/js/controllers/transaction.js:361
@@ -13342,14 +13466,17 @@ msgstr ""
 msgid "Create Multi-level BOM"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7750
 #: erpnext/public/js/call_popup/call_popup.js:122
 msgid "Create New Contact"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7756
 #: erpnext/public/js/call_popup/call_popup.js:128
 msgid "Create New Customer"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7762
 #: erpnext/public/js/call_popup/call_popup.js:134
 msgid "Create New Lead"
 msgstr ""
@@ -13358,6 +13485,7 @@ msgstr ""
 msgid "Create Opportunity"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3329
 #: erpnext/selling/page/point_of_sale/pos_controller.js:67
 msgid "Create POS Opening Entry"
 msgstr ""
@@ -13427,6 +13555,7 @@ msgstr ""
 msgid "Create Sample Retention Stock Entry"
 msgstr ""
 
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:325
 #: erpnext/stock/dashboard/item_dashboard.js:283
 #: erpnext/stock/doctype/material_request/material_request.js:479
 #: erpnext/stock/doctype/pick_list/pick_list.js:117
@@ -13498,6 +13627,7 @@ msgstr ""
 msgid "Create missing customer or supplier."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8646
 #: erpnext/public/js/bulk_transaction_processing.js:14
 msgid "Create {0} {1} ?"
 msgstr ""
@@ -13987,6 +14117,8 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:76
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 #: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8137
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10806
 #: erpnext/public/js/financial_statements.js:233
 #: erpnext/public/js/utils/unreconcile.js:95
 #: erpnext/selling/doctype/quotation/quotation.json
@@ -14367,6 +14499,9 @@ msgstr ""
 #: erpnext/projects/doctype/timesheet/timesheet.js:222
 #: erpnext/projects/doctype/timesheet/timesheet.json
 #: erpnext/projects/report/project_wise_stock_tracking/project_wise_stock_tracking.py:45
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10867
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10881
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:977
 #: erpnext/public/js/sales_trends_filters.js:25
 #: erpnext/public/js/sales_trends_filters.js:39
 #: erpnext/quality_management/doctype/quality_feedback/quality_feedback.json
@@ -14599,6 +14734,7 @@ msgstr ""
 #: erpnext/crm/workspace/crm/crm.json
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10868
 #: erpnext/public/js/sales_trends_filters.js:26
 #: erpnext/selling/doctype/customer/customer.json
 #: erpnext/selling/doctype/installation_note/installation_note.json
@@ -14762,6 +14898,7 @@ msgstr ""
 msgid "Customer PO Details"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7623
 #: erpnext/public/js/utils/contact_address_quick_entry.js:110
 msgid "Customer POS Id"
 msgstr ""
@@ -14796,7 +14933,7 @@ msgstr ""
 msgid "Customer Provided"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:390
+#: erpnext/setup/doctype/company/company.py:388
 msgid "Customer Service"
 msgstr ""
 
@@ -14821,6 +14958,7 @@ msgstr ""
 msgid "Customer Warehouse (Optional)"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1551
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:994
 msgid "Customer contact updated successfully."
 msgstr ""
@@ -15111,6 +15249,7 @@ msgstr ""
 #: erpnext/crm/report/first_response_time_for_opportunity/first_response_time_for_opportunity.py:11
 #: erpnext/projects/doctype/project_update/project_update.json
 #: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.py:19
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:38
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:39
 #: erpnext/quality_management/doctype/quality_action/quality_action.json
 #: erpnext/quality_management/doctype/quality_goal/quality_goal.json
@@ -15164,7 +15303,7 @@ msgstr ""
 msgid "Date of Birth"
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:147
+#: erpnext/setup/doctype/employee/employee.py:235
 msgid "Date of Birth cannot be greater than today."
 msgstr ""
 
@@ -15462,6 +15601,7 @@ msgstr ""
 msgid "Decimeter"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10009
 #: erpnext/public/js/utils/sales_common.js:557
 msgid "Declare Lost"
 msgstr ""
@@ -15542,14 +15682,14 @@ msgstr ""
 
 #. Label of the default_advance_paid_account (Link) field in DocType 'Company'
 #: erpnext/setup/doctype/company/company.json
-#: erpnext/setup/doctype/company/company.py:220
+#: erpnext/setup/doctype/company/company.py:218
 msgid "Default Advance Paid Account"
 msgstr ""
 
 #. Label of the default_advance_received_account (Link) field in DocType
 #. 'Company'
 #: erpnext/setup/doctype/company/company.json
-#: erpnext/setup/doctype/company/company.py:209
+#: erpnext/setup/doctype/company/company.py:207
 msgid "Default Advance Received Account"
 msgstr ""
 
@@ -16276,6 +16416,7 @@ msgstr ""
 
 #. Label of the delivery_date (Date) field in DocType 'Sales Order'
 #. Label of the delivery_date (Date) field in DocType 'Sales Order Item'
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:733
 #: erpnext/public/js/utils.js:803
 #: erpnext/selling/doctype/sales_order/sales_order.js:1076
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -16459,6 +16600,7 @@ msgstr ""
 msgid "Demo Company"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10598
 #: erpnext/public/js/utils/demo.js:28
 msgid "Demo data cleared"
 msgstr ""
@@ -16487,6 +16629,11 @@ msgstr ""
 #: erpnext/setup/doctype/employee_internal_work_history/employee_internal_work_history.json
 #: erpnext/setup/doctype/sales_person/sales_person.json
 msgid "Department"
+msgstr ""
+
+#. Label of the dept_head (Link) field in DocType 'Department'
+#: erpnext/setup/doctype/department/department.json
+msgid "Department Head"
 msgstr ""
 
 #: erpnext/setup/setup_wizard/data/industry_type.txt:18
@@ -16530,6 +16677,7 @@ msgstr ""
 
 #. Label of the deposit (Currency) field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:59
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:60
 msgid "Deposit"
 msgstr ""
@@ -16903,6 +17051,8 @@ msgstr ""
 #: erpnext/projects/doctype/project_type/project_type.json
 #: erpnext/projects/doctype/task_type/task_type.json
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:54
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6200
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:55
 #: erpnext/public/js/controllers/transaction.js:2431
 #: erpnext/selling/doctype/installation_note_item/installation_note_item.json
@@ -17002,6 +17152,7 @@ msgstr ""
 #. Label of the order_lost_reason (Small Text) field in DocType 'Opportunity'
 #. Label of the order_lost_reason (Small Text) field in DocType 'Quotation'
 #: erpnext/crm/doctype/opportunity/opportunity.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9989
 #: erpnext/public/js/utils/sales_common.js:536
 #: erpnext/selling/doctype/quotation/quotation.json
 msgid "Detailed Reason"
@@ -17054,6 +17205,7 @@ msgstr ""
 #: erpnext/accounts/doctype/bisect_nodes/bisect_nodes.json
 #: erpnext/accounts/doctype/pos_closing_entry_detail/pos_closing_entry_detail.json
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:171
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:214
 #: erpnext/public/js/bank_reconciliation_tool/number_card.js:30
 #: erpnext/stock/report/incorrect_balance_qty_after_transaction/incorrect_balance_qty_after_transaction.py:130
 #: erpnext/stock/report/stock_qty_vs_serial_no_count/stock_qty_vs_serial_no_count.py:35
@@ -17413,12 +17565,15 @@ msgstr ""
 #: erpnext/accounts/doctype/payment_schedule/payment_schedule.json
 #: erpnext/accounts/doctype/payment_term/payment_term.json
 #: erpnext/accounts/doctype/payment_terms_template_detail/payment_terms_template_detail.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1056
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2975
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:406
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:146
 #: erpnext/templates/form_grid/item_grid.html:71
 msgid "Discount"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1798
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:175
 msgid "Discount (%)"
 msgstr ""
@@ -17575,10 +17730,12 @@ msgstr ""
 msgid "Discount and Margin"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1399
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:824
 msgid "Discount cannot be greater than 100%"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1066
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:416
 msgid "Discount cannot be greater than 100%."
 msgstr ""
@@ -17659,7 +17816,7 @@ msgstr ""
 msgid "Dislikes"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:384
+#: erpnext/setup/doctype/company/company.py:382
 msgid "Dispatch"
 msgstr ""
 
@@ -17956,6 +18113,7 @@ msgstr ""
 #: erpnext/manufacturing/report/production_plan_summary/production_plan_summary.py:169
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.js:42
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:102
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:343
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:111
 #: erpnext/quality_management/doctype/quality_meeting_minutes/quality_meeting_minutes.json
 msgid "Document Name"
@@ -17977,6 +18135,8 @@ msgstr ""
 #: erpnext/maintenance/doctype/maintenance_visit_purpose/maintenance_visit_purpose.json
 #: erpnext/manufacturing/report/production_plan_summary/production_plan_summary.py:162
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:100
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:338
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:416
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:106
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:186
 #: erpnext/quality_management/doctype/quality_meeting_minutes/quality_meeting_minutes.json
@@ -18055,6 +18215,7 @@ msgstr ""
 #. Label of the done (Check) field in DocType 'Transaction Deletion Record
 #. Details'
 #: erpnext/accounts/doctype/transaction_deletion_record_details/transaction_deletion_record_details.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8849
 #: erpnext/public/js/templates/crm_activities.html:77
 #: erpnext/public/js/utils/crm_activities.js:214
 msgid "Done"
@@ -18093,6 +18254,7 @@ msgstr ""
 msgid "Download Backups"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2347
 #: erpnext/public/js/utils/serial_no_batch_selector.js:235
 msgid "Download CSV Template"
 msgstr ""
@@ -18576,6 +18738,7 @@ msgstr ""
 msgid "Edit"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:470
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:499
 msgid "Edit BOM"
 msgstr ""
@@ -18584,10 +18747,12 @@ msgstr ""
 msgid "Edit Capacity"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:784
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
 msgid "Edit Cart"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2166
 #: erpnext/public/js/utils/serial_no_batch_selector.js:31
 msgid "Edit Full Form"
 msgstr ""
@@ -18596,6 +18761,7 @@ msgstr ""
 msgid "Edit Not Allowed"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8821
 #: erpnext/public/js/utils/crm_activities.js:186
 msgid "Edit Note"
 msgstr ""
@@ -18625,10 +18791,12 @@ msgstr ""
 msgid "Edit Posting Date and Time"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3093
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:286
 msgid "Edit Receipt"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1359
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:777
 msgid "Editing {0} is not allowed as per POS Profile settings"
 msgstr ""
@@ -18649,6 +18817,8 @@ msgstr ""
 msgid "Either 'Selling' or 'Buying' must be selected"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:264
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:394
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:268
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:413
 msgid "Either Workstation or Workstation Type is mandatory"
@@ -18724,6 +18894,7 @@ msgstr ""
 #: erpnext/crm/doctype/prospect_lead/prospect_lead.json
 #: erpnext/crm/report/lead_details/lead_details.py:41
 #: erpnext/projects/doctype/project_user/project_user.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1498
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:939
 #: erpnext/setup/doctype/company/company.json
 msgid "Email"
@@ -18812,11 +18983,13 @@ msgstr ""
 #. Label of the email_id (Read Only) field in DocType 'Customer'
 #: erpnext/buying/doctype/request_for_quotation_supplier/request_for_quotation_supplier.json
 #: erpnext/buying/doctype/supplier/supplier.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7573
 #: erpnext/public/js/utils/contact_address_quick_entry.js:60
 #: erpnext/selling/doctype/customer/customer.json
 msgid "Email Id"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2890
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:50
 msgid "Email Receipt"
 msgstr ""
@@ -18847,6 +19020,7 @@ msgstr ""
 msgid "Email Template"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3122
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:317
 msgid "Email not sent to {0} (unsubscribed / disabled)"
 msgstr ""
@@ -18855,6 +19029,7 @@ msgstr ""
 msgid "Email or Phone/Mobile of the Contact are mandatory to continue."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3127
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:322
 msgid "Email sent successfully."
 msgstr ""
@@ -19024,7 +19199,7 @@ msgstr ""
 msgid "Employee User Id"
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:214
+#: erpnext/setup/doctype/employee/employee.py:302
 msgid "Employee cannot report to himself."
 msgstr ""
 
@@ -19274,6 +19449,7 @@ msgstr ""
 #: erpnext/maintenance/doctype/maintenance_schedule_item/maintenance_schedule_item.json
 #: erpnext/projects/doctype/timesheet/timesheet.json
 #: erpnext/projects/report/project_summary/project_summary.py:80
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10770
 #: erpnext/public/js/financial_statements.js:193
 #: erpnext/public/js/setup_wizard.js:50
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.js:23
@@ -19308,6 +19484,7 @@ msgstr ""
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:64
 #: erpnext/accounts/report/financial_ratios/financial_ratios.js:25
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:89
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10785
 #: erpnext/public/js/financial_statements.js:208
 msgid "End Year"
 msgstr ""
@@ -19371,10 +19548,12 @@ msgstr ""
 msgid "Enter First and Last name of Employee, based on Which Full Name will be updated. IN transactions, it will be Full Name which will be fetched."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2314
 #: erpnext/public/js/utils/serial_no_batch_selector.js:201
 msgid "Enter Manually"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2389
 #: erpnext/public/js/utils/serial_no_batch_selector.js:279
 msgid "Enter Serial Nos"
 msgstr ""
@@ -19405,6 +19584,7 @@ msgstr ""
 msgid "Enter a name for this Holiday List."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2614
 #: erpnext/selling/page/point_of_sale/pos_payment.js:611
 msgid "Enter amount to be redeemed."
 msgstr ""
@@ -19413,10 +19593,12 @@ msgstr ""
 msgid "Enter an Item Code, the name will be auto-filled the same as Item Code on clicking inside the Item Name field."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1501
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:942
 msgid "Enter customer's email"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1507
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:948
 msgid "Enter customer's phone number"
 msgstr ""
@@ -19429,10 +19611,12 @@ msgstr ""
 msgid "Enter depreciation details"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1058
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:408
 msgid "Enter discount percentage."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2392
 #: erpnext/public/js/utils/serial_no_batch_selector.js:282
 msgid "Enter each serial no in a new line"
 msgstr ""
@@ -19468,6 +19652,7 @@ msgstr ""
 msgid "Enter the quantity to manufacture. Raw material Items will be fetched only when this is set."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2548
 #: erpnext/selling/page/point_of_sale/pos_payment.js:535
 msgid "Enter {0} amount."
 msgstr ""
@@ -19721,7 +19906,7 @@ msgstr ""
 #: erpnext/accounts/doctype/payment_entry_reference/payment_entry_reference.json
 #: erpnext/accounts/doctype/purchase_invoice_advance/purchase_invoice_advance.json
 #: erpnext/accounts/doctype/sales_invoice_advance/sales_invoice_advance.json
-#: erpnext/setup/doctype/company/company.py:548
+#: erpnext/setup/doctype/company/company.py:546
 msgid "Exchange Gain/Loss"
 msgstr ""
 
@@ -19875,6 +20060,9 @@ msgstr ""
 msgid "Exit Interview Held On"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:158
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:190
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:199
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:154
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:187
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:197
@@ -19944,7 +20132,7 @@ msgstr ""
 
 #. Label of the expected_hours (Float) field in DocType 'Timesheet Detail'
 #: erpnext/projects/doctype/timesheet_detail/timesheet_detail.json
-#: erpnext/public/js/projects/timer.js:16
+#: erpnext/public/js/projects/timer.js:18
 msgid "Expected Hrs"
 msgstr ""
 
@@ -20333,7 +20521,7 @@ msgstr ""
 msgid "Failed to setup defaults"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:730
+#: erpnext/setup/doctype/company/company.py:728
 msgid "Failed to setup defaults for country {0}. Please contact support."
 msgstr ""
 
@@ -20405,6 +20593,7 @@ msgstr ""
 msgid "Fees"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2480
 #: erpnext/public/js/utils/serial_no_batch_selector.js:384
 msgid "Fetch Based On"
 msgstr ""
@@ -20458,6 +20647,7 @@ msgstr ""
 msgid "Fetch items based on Default Supplier."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2042
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:455
 msgid "Fetched only {0} available serial numbers."
 msgstr ""
@@ -20467,6 +20657,7 @@ msgid "Fetching Error"
 msgstr ""
 
 #: erpnext/accounts/doctype/dunning/dunning.js:135
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:5145
 #: erpnext/public/js/controllers/transaction.js:1305
 msgid "Fetching exchange rates ..."
 msgstr ""
@@ -20538,6 +20729,7 @@ msgstr ""
 
 #: erpnext/accounts/report/consolidated_financial_statement/consolidated_financial_statement.js:16
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:16
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10738
 #: erpnext/public/js/financial_statements.js:160
 msgid "Filter Based On"
 msgstr ""
@@ -20558,6 +20750,7 @@ msgstr ""
 msgid "Filter by Reference Date"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2787
 #: erpnext/selling/page/point_of_sale/pos_past_order_list.js:70
 msgid "Filter by invoice status"
 msgstr ""
@@ -20588,6 +20781,7 @@ msgstr ""
 #: erpnext/accounts/doctype/repost_payment_ledger/repost_payment_ledger.json
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:427
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:196
 msgid "Filters"
 msgstr ""
@@ -20654,6 +20848,7 @@ msgstr ""
 #: erpnext/assets/doctype/asset_shift_allocation/asset_shift_allocation.json
 #: erpnext/assets/doctype/asset_value_adjustment/asset_value_adjustment.json
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:48
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10732
 #: erpnext/public/js/financial_statements.js:154
 msgid "Finance Book"
 msgstr ""
@@ -20697,6 +20892,7 @@ msgstr ""
 
 #. Label of a Card Break in the Financial Reports Workspace
 #: erpnext/accounts/workspace/financial_reports/financial_reports.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10704
 #: erpnext/public/js/financial_statements.js:122
 msgid "Financial Statements"
 msgstr ""
@@ -20743,6 +20939,7 @@ msgstr ""
 
 #. Label of the fg_item (Link) field in DocType 'Subcontracting Order Service
 #. Item'
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:754
 #: erpnext/public/js/utils.js:829
 #: erpnext/subcontracting/doctype/subcontracting_order_service_item/subcontracting_order_service_item.json
 msgid "Finished Good Item"
@@ -20752,6 +20949,7 @@ msgstr ""
 msgid "Finished Good Item Code"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:772
 #: erpnext/public/js/utils.js:847
 msgid "Finished Good Item Qty"
 msgstr ""
@@ -20813,7 +21011,7 @@ msgstr ""
 msgid "Finished Good {0} must be a sub-contracted item."
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:289
+#: erpnext/setup/doctype/company/company.py:287
 msgid "Finished Goods"
 msgstr ""
 
@@ -20874,6 +21072,7 @@ msgstr ""
 #. Label of the first_name (Read Only) field in DocType 'Customer'
 #. Label of the first_name (Data) field in DocType 'Employee'
 #: erpnext/crm/doctype/lead/lead.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7558
 #: erpnext/public/js/utils/contact_address_quick_entry.js:44
 #: erpnext/selling/doctype/customer/customer.json
 #: erpnext/setup/doctype/employee/employee.json
@@ -20947,6 +21146,8 @@ msgstr ""
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.js:16
 #: erpnext/accounts/workspace/accounting/accounting.json
 #: erpnext/manufacturing/report/job_card_summary/job_card_summary.js:16
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10886
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10926
 #: erpnext/public/js/purchase_trends_filters.js:28
 #: erpnext/public/js/sales_trends_filters.js:44
 #: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
@@ -21069,10 +21270,12 @@ msgstr ""
 msgid "Fluid Ounce (US)"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:649
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:308
 msgid "Focus on Item Group filter"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:640
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:299
 msgid "Focus on search input"
 msgstr ""
@@ -21123,6 +21326,7 @@ msgstr ""
 msgid "For"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9839
 #: erpnext/public/js/utils/sales_common.js:366
 msgid "For 'Product Bundle' items, Warehouse, Serial No and Batch No will be considered from the 'Packing List' table. If Warehouse and Batch No are same for all packing items for any 'Product Bundle' item, those values can be entered in the main Item table, values will be copied to 'Packing List' table."
 msgstr ""
@@ -21217,6 +21421,7 @@ msgstr ""
 msgid "For Warehouse"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2248
 #: erpnext/public/js/utils/serial_no_batch_selector.js:125
 msgid "For Work Order"
 msgstr ""
@@ -21277,6 +21482,7 @@ msgid "For reference"
 msgstr ""
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1497
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9375
 #: erpnext/public/js/controllers/accounts.js:182
 msgid "For row {0} in {1}. To include {2} in Item rate, rows {3} must also be included"
 msgstr ""
@@ -21298,6 +21504,7 @@ msgstr ""
 msgid "For the item {0}, the quantity should be {1} according to the BOM {2}."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:4989
 #: erpnext/public/js/controllers/transaction.js:1142
 msgctxt "Clear payment terms template and/or payment schedule when due date is changed"
 msgid "For the new {0} to take effect, would you like to clear the current {1}?"
@@ -22116,7 +22323,7 @@ msgstr ""
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:74
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:98
-#: erpnext/setup/doctype/company/company.py:556
+#: erpnext/setup/doctype/company/company.py:554
 msgid "Gain/Loss on Asset Disposal"
 msgstr ""
 
@@ -22343,6 +22550,7 @@ msgstr ""
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.js:119
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.js:142
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10266
 #: erpnext/public/js/controllers/buying.js:295
 #: erpnext/selling/doctype/quotation/quotation.js:167
 #: erpnext/selling/doctype/sales_order/sales_order.js:174
@@ -22394,6 +22602,7 @@ msgstr ""
 msgid "Get Items from Open Material Requests"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10494
 #: erpnext/public/js/controllers/buying.js:543
 msgid "Get Items from Product Bundle"
 msgstr ""
@@ -22555,7 +22764,7 @@ msgstr ""
 msgid "Goods"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:290
+#: erpnext/setup/doctype/company/company.py:288
 #: erpnext/stock/doctype/stock_entry/stock_entry_list.js:21
 msgid "Goods In Transit"
 msgstr ""
@@ -22689,6 +22898,11 @@ msgstr ""
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
 #: erpnext/manufacturing/doctype/production_plan_sales_order/production_plan_sales_order.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:784
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1172
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1173
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2678
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3003
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
@@ -22858,6 +23072,8 @@ msgstr ""
 #: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.js:70
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:35
 #: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.js:41
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10879
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10959
 #: erpnext/public/js/purchase_trends_filters.js:61
 #: erpnext/public/js/sales_trends_filters.js:37
 #: erpnext/selling/report/lost_quotations/lost_quotations.js:33
@@ -22982,6 +23198,9 @@ msgstr ""
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:64
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:77
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:59
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10798
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10855
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10919
 #: erpnext/public/js/financial_statements.js:221
 #: erpnext/public/js/purchase_trends_filters.js:21
 #: erpnext/public/js/sales_trends_filters.js:13
@@ -23264,6 +23483,7 @@ msgstr ""
 msgid "Hide Images"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3534
 #: erpnext/selling/page/point_of_sale/pos_controller.js:297
 msgid "Hide Recent Orders"
 msgstr ""
@@ -23419,7 +23639,7 @@ msgstr ""
 msgid "Hrs"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:396
+#: erpnext/setup/doctype/company/company.py:394
 msgid "Human Resources"
 msgstr ""
 
@@ -23973,6 +24193,7 @@ msgstr ""
 msgid "Ignore Pricing Rule"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2378
 #: erpnext/selling/page/point_of_sale/pos_payment.js:335
 msgid "Ignore Pricing Rule is enabled. Cannot apply coupon code."
 msgstr ""
@@ -24218,6 +24439,7 @@ msgstr ""
 msgid "Import Type"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2329
 #: erpnext/public/js/utils/serial_no_batch_selector.js:217
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:84
 msgid "Import Using CSV file"
@@ -24756,6 +24978,7 @@ msgstr ""
 msgid "Incoming Rate (Costing)"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7675
 #: erpnext/public/js/call_popup/call_popup.js:38
 msgid "Incoming call from {0}"
 msgstr ""
@@ -25342,6 +25565,7 @@ msgstr ""
 msgid "Invalid Barcode. There is no Item attached to this barcode."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6436
 #: erpnext/public/js/controllers/transaction.js:2687
 msgid "Invalid Blanket Order for the selected Customer and Item"
 msgstr ""
@@ -25368,6 +25592,7 @@ msgstr ""
 msgid "Invalid Delivery Date"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1064
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:414
 msgid "Invalid Discount"
 msgstr ""
@@ -25420,6 +25645,7 @@ msgstr ""
 msgid "Invalid Parent Account"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10347
 #: erpnext/public/js/controllers/buying.js:372
 msgid "Invalid Part Number"
 msgstr ""
@@ -25452,6 +25678,7 @@ msgstr ""
 msgid "Invalid Quantity"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3019
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:198
 msgid "Invalid Return"
 msgstr ""
@@ -25666,6 +25893,7 @@ msgstr ""
 msgid "Invoice Series"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2784
 #: erpnext/selling/page/point_of_sale/pos_past_order_list.js:67
 msgid "Invoice Status"
 msgstr ""
@@ -26404,6 +26632,7 @@ msgstr ""
 msgid "It can take upto few hours for accurate stock values to be visible after merging items."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:5921
 #: erpnext/public/js/controllers/transaction.js:2130
 msgid "It is needed to fetch Item Details."
 msgstr ""
@@ -26468,6 +26697,14 @@ msgstr ""
 #: erpnext/manufacturing/report/process_loss_report/process_loss_report.js:15
 #: erpnext/manufacturing/report/process_loss_report/process_loss_report.py:74
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:213
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:347
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10865
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10881
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10946
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10961
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:266
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:745
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:212
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:359
 #: erpnext/public/js/purchase_trends_filters.js:48
@@ -26595,6 +26832,7 @@ msgstr ""
 msgid "Item Barcode"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:745
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:46
 msgid "Item Cart"
 msgstr ""
@@ -26732,6 +26970,11 @@ msgstr ""
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:86
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:119
 #: erpnext/projects/doctype/timesheet/timesheet.js:213
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:440
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:589
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1231
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1408
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6174
 #: erpnext/public/js/controllers/transaction.js:2405
 #: erpnext/public/js/stock_reservation.js:112
 #: erpnext/public/js/stock_reservation.js:317 erpnext/public/js/utils.js:500
@@ -26811,6 +27054,8 @@ msgstr ""
 msgid "Item Code required at Row No {0}"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1889
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3997
 #: erpnext/selling/page/point_of_sale/pos_controller.js:845
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:275
 msgid "Item Code: {0} is not available under warehouse {1}."
@@ -26856,6 +27101,7 @@ msgstr ""
 #. Label of the section_break_19 (Section Break) field in DocType 'Production
 #. Plan Sub Assembly Item'
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1680
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:29
 msgid "Item Details"
 msgstr ""
@@ -26932,6 +27178,9 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom_creator_item/bom_creator_item.json
 #: erpnext/manufacturing/doctype/job_card_item/job_card_item.json
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:128
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10866
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10947
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:519
 #: erpnext/public/js/purchase_trends_filters.js:49
 #: erpnext/public/js/sales_trends_filters.js:24
 #: erpnext/selling/doctype/party_specific_item/party_specific_item.json
@@ -27170,6 +27419,8 @@ msgstr ""
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:359
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:92
 #: erpnext/manufacturing/report/work_order_consumed_materials/work_order_consumed_materials.py:138
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:677
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6180
 #: erpnext/public/js/controllers/transaction.js:2411
 #: erpnext/public/js/utils.js:746
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
@@ -27515,10 +27766,12 @@ msgstr ""
 msgid "Item has variants."
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:390
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:408
 msgid "Item is mandatory in Raw Materials table."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1744
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:110
 msgid "Item is removed since no serial / batch no selected."
 msgstr ""
@@ -27763,6 +28016,8 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 #: erpnext/manufacturing/doctype/job_card/job_card.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:418
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2861
 #: erpnext/public/js/utils.js:478
 #: erpnext/selling/doctype/installation_note/installation_note.json
 #: erpnext/selling/doctype/product_bundle/product_bundle.json
@@ -27843,6 +28098,7 @@ msgstr ""
 msgid "Items to Order and Receive"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1192
 #: erpnext/public/js/stock_reservation.js:72
 #: erpnext/selling/doctype/sales_order/sales_order.js:304
 msgid "Items to Reserve"
@@ -28259,6 +28515,7 @@ msgstr ""
 msgid "Kindly cancel the Manufacturing Entries first against the work order {0}."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1972
 #: erpnext/public/js/utils/party.js:268
 msgid "Kindly select the company first"
 msgstr ""
@@ -28345,6 +28602,10 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
+#: erpnext/public/js/projects/timer.js:37
+msgid "Lap"
+msgstr ""
+
 #. Option for the 'Fulfilment Status' (Select) field in DocType 'Contract'
 #: erpnext/crm/doctype/contract/contract.json
 msgid "Lapsed"
@@ -28390,6 +28651,7 @@ msgstr ""
 #. Label of the last_name (Read Only) field in DocType 'Customer'
 #. Label of the last_name (Data) field in DocType 'Employee'
 #: erpnext/crm/doctype/lead/lead.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7564
 #: erpnext/public/js/utils/contact_address_quick_entry.js:50
 #: erpnext/selling/doctype/customer/customer.json
 #: erpnext/setup/doctype/employee/employee.json
@@ -28432,6 +28694,7 @@ msgstr ""
 msgid "Last carbon check date cannot be a future date"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1575
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:1025
 msgid "Last transacted"
 msgstr ""
@@ -28694,7 +28957,7 @@ msgstr ""
 msgid "Legacy Fields"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:420
+#: erpnext/setup/doctype/company/company.py:418
 #: erpnext/setup/setup_wizard/data/industry_type.txt:30
 msgid "Legal"
 msgstr ""
@@ -29127,6 +29390,7 @@ msgstr ""
 #. 'Quotation'
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/report/lost_opportunity/lost_opportunity.py:49
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9976
 #: erpnext/public/js/utils/sales_common.js:520
 #: erpnext/selling/doctype/quotation/quotation.json
 msgid "Lost Reasons"
@@ -29195,6 +29459,7 @@ msgstr ""
 #: erpnext/accounts/doctype/loyalty_point_entry/loyalty_point_entry.json
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1518
 #: erpnext/selling/doctype/customer/customer.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:959
@@ -29214,6 +29479,7 @@ msgstr ""
 msgid "Loyalty Points will be calculated from the spent done (via the Sales Invoice), based on collection factor mentioned."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:118
 #: erpnext/public/js/utils.js:109
 msgid "Loyalty Points: {0}"
 msgstr ""
@@ -29229,6 +29495,7 @@ msgstr ""
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1121
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1511
 #: erpnext/selling/doctype/customer/customer.json
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:952
 #: erpnext/selling/workspace/selling/selling.json
@@ -29270,10 +29537,12 @@ msgstr ""
 
 #: erpnext/manufacturing/report/downtime_analysis/downtime_analysis.js:23
 #: erpnext/manufacturing/report/downtime_analysis/downtime_analysis.py:78
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:3098
 #: erpnext/public/js/plant_floor_visual/visual_plant.js:86
 msgid "Machine"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:3084
 #: erpnext/public/js/plant_floor_visual/visual_plant.js:70
 msgid "Machine Type"
 msgstr ""
@@ -29288,10 +29557,10 @@ msgstr ""
 msgid "Machine operator errors"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:594
+#: erpnext/setup/doctype/company/company.py:592
+#: erpnext/setup/doctype/company/company.py:607
+#: erpnext/setup/doctype/company/company.py:608
 #: erpnext/setup/doctype/company/company.py:609
-#: erpnext/setup/doctype/company/company.py:610
-#: erpnext/setup/doctype/company/company.py:611
 msgid "Main"
 msgstr ""
 
@@ -29656,7 +29925,7 @@ msgstr ""
 msgid "Manage your orders"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:402
+#: erpnext/setup/doctype/company/company.py:400
 msgid "Management"
 msgstr ""
 
@@ -29678,6 +29947,9 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom/bom.js:603
 #: erpnext/manufacturing/doctype/bom/bom.py:261
 #: erpnext/manufacturing/doctype/bom_update_log/bom_update_log.py:71
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2022
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6541
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9436
 #: erpnext/public/js/controllers/accounts.js:249
 #: erpnext/public/js/controllers/transaction.js:2809
 #: erpnext/public/js/utils/party.js:321
@@ -29877,6 +30149,7 @@ msgstr ""
 msgid "Manufacturer Part Number"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10346
 #: erpnext/public/js/controllers/buying.js:371
 msgid "Manufacturer Part Number <b>{0}</b> is invalid"
 msgstr ""
@@ -29996,6 +30269,7 @@ msgstr ""
 msgid "Mapping Subcontracting Order ..."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:885
 #: erpnext/public/js/utils.js:974
 msgid "Mapping {0} ..."
 msgstr ""
@@ -30096,7 +30370,7 @@ msgstr ""
 msgid "Market Segment"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:354
+#: erpnext/setup/doctype/company/company.py:352
 msgid "Marketing"
 msgstr ""
 
@@ -30545,6 +30819,7 @@ msgstr ""
 msgid "Maximum discount for Item {0} is {1}%"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8270
 #: erpnext/public/js/utils/barcode_scanner.js:99
 msgid "Maximum quantity scanned for item {0}."
 msgstr ""
@@ -30660,6 +30935,7 @@ msgstr ""
 msgid "Merge Similar Account Heads"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:913
 #: erpnext/public/js/utils.js:1006
 msgid "Merge taxes from multiple documents"
 msgstr ""
@@ -31130,6 +31406,7 @@ msgstr ""
 msgid "Mobile No"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7579
 #: erpnext/public/js/utils/contact_address_quick_entry.js:66
 msgid "Mobile Number"
 msgstr ""
@@ -31190,6 +31467,7 @@ msgstr ""
 #: erpnext/accounts/report/purchase_register/purchase_register.js:40
 #: erpnext/accounts/report/sales_register/sales_register.js:40
 #: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3294
 #: erpnext/selling/page/point_of_sale/pos_controller.js:33
 msgid "Mode of Payment"
 msgstr ""
@@ -31312,6 +31590,9 @@ msgstr ""
 #: erpnext/maintenance/doctype/maintenance_schedule_item/maintenance_schedule_item.json
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:57
 #: erpnext/manufacturing/report/production_analytics/production_analytics.js:34
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10796
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10853
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10917
 #: erpnext/public/js/financial_statements.js:219
 #: erpnext/public/js/purchase_trends_filters.js:19
 #: erpnext/public/js/sales_trends_filters.js:11
@@ -31476,6 +31757,7 @@ msgstr ""
 msgid "Move"
 msgstr ""
 
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:262
 #: erpnext/stock/dashboard/item_dashboard.js:216
 msgid "Move Item"
 msgstr ""
@@ -31598,6 +31880,7 @@ msgstr ""
 #: erpnext/crm/doctype/appointment/appointment.json
 #: erpnext/crm/report/prospects_engaged_but_not_converted/prospects_engaged_but_not_converted.py:29
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.js:44
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2577
 #: erpnext/public/js/utils/serial_no_batch_selector.js:496
 #: erpnext/selling/doctype/installation_note/installation_note.json
 #: erpnext/selling/doctype/quotation/quotation.js:274
@@ -31976,6 +32259,10 @@ msgstr ""
 #: erpnext/accounts/report/sales_register/sales_register.py:285
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:784
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1159
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1160
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2984
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
@@ -32100,6 +32387,7 @@ msgstr ""
 msgid "New Employee"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8736
 #: erpnext/public/js/templates/crm_activities.html:14
 #: erpnext/public/js/utils/crm_activities.js:87
 msgid "New Event"
@@ -32121,6 +32409,7 @@ msgstr ""
 msgid "New Income"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3500
 #: erpnext/selling/page/point_of_sale/pos_controller.js:259
 msgid "New Invoice"
 msgstr ""
@@ -32170,6 +32459,7 @@ msgstr ""
 msgid "New Serial No cannot have Warehouse. Warehouse must be set by Stock Entry or Purchase Receipt"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8721
 #: erpnext/public/js/templates/crm_activities.html:8
 #: erpnext/public/js/utils/crm_activities.js:69
 msgid "New Task"
@@ -32328,6 +32618,7 @@ msgstr ""
 msgid "No Delivery Note selected for Customer {}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8023
 #: erpnext/public/js/utils/ledger_preview.js:64
 msgid "No Impact on Accounting Ledger"
 msgstr ""
@@ -32389,6 +32680,7 @@ msgstr ""
 msgid "No Remarks"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8184
 #: erpnext/public/js/utils/unreconcile.js:147
 msgid "No Selection"
 msgstr ""
@@ -32397,6 +32689,7 @@ msgstr ""
 msgid "No Serial / Batches are available for return"
 msgstr ""
 
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:213
 #: erpnext/stock/dashboard/item_dashboard.js:154
 msgid "No Stock Available Currently"
 msgstr ""
@@ -32491,10 +32784,12 @@ msgstr ""
 msgid "No items are available in the sales order {0} for production"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:663
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:325
 msgid "No items found. Scan barcode again."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:771
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:76
 msgid "No items in cart"
 msgstr ""
@@ -32584,6 +32879,7 @@ msgstr ""
 msgid "No outstanding {0} found for the {1} {2} which qualify the filters you have specified."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10437
 #: erpnext/public/js/controllers/buying.js:475
 msgid "No pending Material Requests found to link for the given items."
 msgstr ""
@@ -32596,6 +32892,7 @@ msgstr ""
 msgid "No products found."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1570
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:1017
 msgid "No recent transactions found"
 msgstr ""
@@ -32618,6 +32915,7 @@ msgstr ""
 msgid "No records found in the Payments table"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1321
 #: erpnext/public/js/stock_reservation.js:221
 msgid "No reserved stock to unreserve."
 msgstr ""
@@ -32719,6 +33017,8 @@ msgstr ""
 msgid "Not Applicable"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3996
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:4023
 #: erpnext/selling/page/point_of_sale/pos_controller.js:844
 #: erpnext/selling/page/point_of_sale/pos_controller.js:873
 msgid "Not Available"
@@ -32825,6 +33125,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1040
 #: erpnext/manufacturing/doctype/production_plan/production_plan.py:1750
 #: erpnext/projects/doctype/timesheet/timesheet.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10438
 #: erpnext/public/js/controllers/buying.js:476
 #: erpnext/selling/doctype/customer/customer.py:129
 #: erpnext/selling/doctype/sales_order/sales_order.js:1180
@@ -33409,6 +33710,7 @@ msgstr ""
 msgid "Open Call Log"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7744
 #: erpnext/public/js/call_popup/call_popup.js:116
 msgid "Open Contact"
 msgstr ""
@@ -33422,6 +33724,7 @@ msgstr ""
 msgid "Open Events"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3494
 #: erpnext/selling/page/point_of_sale/pos_controller.js:252
 msgid "Open Form View"
 msgstr ""
@@ -33535,6 +33838,7 @@ msgstr ""
 #. Detail'
 #: erpnext/accounts/doctype/pos_closing_entry_detail/pos_closing_entry_detail.json
 #: erpnext/accounts/doctype/pos_opening_entry_detail/pos_opening_entry_detail.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3302
 #: erpnext/selling/page/point_of_sale/pos_controller.js:41
 msgid "Opening Amount"
 msgstr ""
@@ -33545,6 +33849,7 @@ msgstr ""
 
 #. Label of the balance_details (Table) field in DocType 'POS Opening Entry'
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3352
 #: erpnext/selling/page/point_of_sale/pos_controller.js:90
 msgid "Opening Balance Details"
 msgstr ""
@@ -33719,6 +34024,7 @@ msgstr ""
 #: erpnext/manufacturing/report/job_card_summary/job_card_summary.js:80
 #: erpnext/manufacturing/report/job_card_summary/job_card_summary.py:167
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:318
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:328
 msgid "Operation"
 msgstr ""
@@ -33813,7 +34119,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom/bom.json
 #: erpnext/manufacturing/doctype/work_order/work_order.js:288
 #: erpnext/manufacturing/doctype/work_order/work_order.json
-#: erpnext/setup/doctype/company/company.py:372
+#: erpnext/setup/doctype/company/company.py:370
 #: erpnext/setup/doctype/email_digest/email_digest.json
 #: erpnext/templates/generators/bom.html:61
 msgid "Operations"
@@ -34297,6 +34603,7 @@ msgid "Out of stock"
 msgstr ""
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:1145
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3456
 #: erpnext/selling/page/point_of_sale/pos_controller.js:208
 msgid "Outdated POS Opening Entry"
 msgstr ""
@@ -34518,6 +34825,16 @@ msgstr ""
 msgid "Overproduction for Sales and Work Order"
 msgstr ""
 
+#. Label of the overtime_leaves (Int) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Overtime Leaves"
+msgstr ""
+
+#. Label of the overtime_mins (Float) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Overtime MInutes"
+msgstr ""
+
 #. Label of the overview_tab (Tab Break) field in DocType 'Prospect'
 #. Label of the basic_details_tab (Tab Break) field in DocType 'Employee'
 #: erpnext/crm/doctype/prospect/prospect.json
@@ -34571,6 +34888,7 @@ msgstr ""
 msgid "POS Additional Fields"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3435
 #: erpnext/selling/page/point_of_sale/pos_controller.js:183
 msgid "POS Closed"
 msgstr ""
@@ -34705,6 +35023,7 @@ msgstr ""
 msgid "POS Opening Entry Cancellation Error"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3435
 #: erpnext/selling/page/point_of_sale/pos_controller.js:183
 msgid "POS Opening Entry Cancelled"
 msgstr ""
@@ -34726,6 +35045,7 @@ msgstr ""
 msgid "POS Opening Entry cannot be cancelled as unconsolidated Invoices exists."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3438
 #: erpnext/selling/page/point_of_sale/pos_controller.js:189
 msgid "POS Opening Entry has been cancelled. Please refresh the page."
 msgstr ""
@@ -34748,6 +35068,7 @@ msgstr ""
 #: erpnext/accounts/report/pos_register/pos_register.js:32
 #: erpnext/accounts/report/pos_register/pos_register.py:117
 #: erpnext/accounts/report/pos_register/pos_register.py:188
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3342
 #: erpnext/selling/page/point_of_sale/pos_controller.js:80
 msgid "POS Profile"
 msgstr ""
@@ -34816,10 +35137,12 @@ msgstr ""
 msgid "POS Transactions"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3437
 #: erpnext/selling/page/point_of_sale/pos_controller.js:187
 msgid "POS has been closed at {0}. Please refresh the page."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3700
 #: erpnext/selling/page/point_of_sale/pos_controller.js:491
 msgid "POS invoice {0} created successfully"
 msgstr ""
@@ -34990,6 +35313,7 @@ msgstr ""
 #: erpnext/accounts/report/accounts_receivable_summary/accounts_receivable_summary.py:165
 #: erpnext/accounts/report/customer_ledger_summary/customer_ledger_summary.py:172
 #: erpnext/accounts/report/pos_register/pos_register.py:209
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2678
 #: erpnext/selling/page/point_of_sale/pos_payment.js:682
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:56
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:277
@@ -35148,7 +35472,7 @@ msgstr ""
 msgid "Parent Company"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:491
+#: erpnext/setup/doctype/company/company.py:489
 msgid "Parent Company must be a group company"
 msgstr ""
 
@@ -35470,6 +35794,8 @@ msgstr ""
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/report/lost_opportunity/lost_opportunity.js:55
 #: erpnext/crm/report/lost_opportunity/lost_opportunity.py:31
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:49
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:367
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:50
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:135
 #: erpnext/selling/doctype/quotation/quotation.json
@@ -35630,6 +35956,7 @@ msgstr ""
 #: erpnext/accounts/report/tds_computation_summary/tds_computation_summary.js:15
 #: erpnext/accounts/report/trial_balance_for_party/trial_balance_for_party.js:49
 #: erpnext/crm/doctype/contract/contract.json
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:44
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:45
 #: erpnext/selling/doctype/party_specific_item/party_specific_item.json
 #: erpnext/selling/report/address_and_contacts/address_and_contacts.js:9
@@ -35932,6 +36259,7 @@ msgstr ""
 msgid "Payment Entry {0} is linked against Order {1}, check if it should be pulled as advance in this invoice."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2415
 #: erpnext/selling/page/point_of_sale/pos_payment.js:378
 msgid "Payment Failed"
 msgstr ""
@@ -35996,6 +36324,7 @@ msgstr ""
 #: erpnext/accounts/report/pos_register/pos_register.js:50
 #: erpnext/accounts/report/pos_register/pos_register.py:126
 #: erpnext/accounts/report/pos_register/pos_register.py:216
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2117
 #: erpnext/selling/page/point_of_sale/pos_payment.js:22
 msgid "Payment Method"
 msgstr ""
@@ -36064,6 +36393,7 @@ msgstr ""
 msgid "Payment Receipt Note"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2398
 #: erpnext/selling/page/point_of_sale/pos_payment.js:359
 msgid "Payment Received"
 msgstr ""
@@ -36333,10 +36663,12 @@ msgid "Payment methods are mandatory. Please add at least one payment method."
 msgstr ""
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:454
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2403
 #: erpnext/selling/page/point_of_sale/pos_payment.js:366
 msgid "Payment of {0} received successfully."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2410
 #: erpnext/selling/page/point_of_sale/pos_payment.js:373
 msgid "Payment of {0} received successfully. Waiting for other requests to complete..."
 msgstr ""
@@ -36380,6 +36712,7 @@ msgstr ""
 #: erpnext/accounts/workspace/receivables/receivables.json
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/buying/doctype/supplier/supplier_dashboard.py:12
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2861
 #: erpnext/selling/doctype/customer/customer_dashboard.py:21
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:19
 msgid "Payments"
@@ -36629,6 +36962,8 @@ msgid "Perception Analysis"
 msgstr ""
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:59
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10850
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10914
 #: erpnext/public/js/purchase_trends_filters.js:16
 #: erpnext/public/js/sales_trends_filters.js:8
 #: erpnext/selling/report/sales_partner_target_variance_based_on_item_group/sales_partner_target_variance_based_on_item_group.js:29
@@ -36730,6 +37065,7 @@ msgstr ""
 msgid "Period To Date"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10933
 #: erpnext/public/js/purchase_trends_filters.js:35
 msgid "Period based On"
 msgstr ""
@@ -36770,6 +37106,7 @@ msgstr ""
 #: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
 #: erpnext/maintenance/doctype/maintenance_schedule_item/maintenance_schedule_item.json
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:54
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10793
 #: erpnext/public/js/financial_statements.js:216
 msgid "Periodicity"
 msgstr ""
@@ -36853,6 +37190,7 @@ msgstr ""
 #. Label of the customer_phone_number (Data) field in DocType 'Appointment'
 #: erpnext/accounts/doctype/payment_request/payment_request.json
 #: erpnext/crm/doctype/appointment/appointment.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1505
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:946
 msgid "Phone Number"
 msgstr ""
@@ -37160,6 +37498,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.json
 #: erpnext/manufacturing/doctype/workstation/workstation.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:3069
 #: erpnext/public/js/plant_floor_visual/visual_plant.js:53
 msgid "Plant Floor"
 msgstr ""
@@ -37208,6 +37547,7 @@ msgstr ""
 msgid "Please add 'Supplier' role to user {0}."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3363
 #: erpnext/selling/page/point_of_sale/pos_controller.js:101
 msgid "Please add Mode of payments and opening balance details."
 msgstr ""
@@ -37224,6 +37564,7 @@ msgstr ""
 msgid "Please add a Temporary Opening account in Chart of Accounts"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2703
 #: erpnext/public/js/utils/serial_no_batch_selector.js:647
 msgid "Please add atleast one Serial No / Batch No"
 msgstr ""
@@ -37371,6 +37712,7 @@ msgid "Please enable only if the understand the effects of enabling this."
 msgstr ""
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.js:149
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2440
 #: erpnext/public/js/utils/serial_no_batch_selector.js:341
 #: erpnext/regional/report/electronic_invoice_register/electronic_invoice_register.js:49
 msgid "Please enable pop-ups"
@@ -37434,6 +37776,7 @@ msgstr ""
 msgid "Please enter Item Code to get Batch Number"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6317
 #: erpnext/public/js/controllers/transaction.js:2559
 msgid "Please enter Item Code to get batch no"
 msgstr ""
@@ -37474,6 +37817,7 @@ msgstr ""
 msgid "Please enter Root Type for account- {0}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2411
 #: erpnext/public/js/utils/serial_no_batch_selector.js:308
 msgid "Please enter Serial Nos"
 msgstr ""
@@ -37515,11 +37859,12 @@ msgstr ""
 msgid "Please enter parent cost center"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8322
 #: erpnext/public/js/utils/barcode_scanner.js:165
 msgid "Please enter quantity for item {0}"
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:184
+#: erpnext/setup/doctype/employee/employee.py:272
 msgid "Please enter relieving date."
 msgstr ""
 
@@ -37543,10 +37888,11 @@ msgstr ""
 msgid "Please enter valid Financial Year Start and End Dates"
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:222
+#: erpnext/setup/doctype/employee/employee.py:310
 msgid "Please enter {0}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2022
 #: erpnext/public/js/utils/party.js:321
 msgid "Please enter {0} first"
 msgstr ""
@@ -37575,7 +37921,7 @@ msgstr ""
 msgid "Please import accounts against parent company or enable {} in company master."
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:181
+#: erpnext/setup/doctype/employee/employee.py:269
 msgid "Please make sure the employees above report to another Active employee."
 msgstr ""
 
@@ -37630,6 +37976,7 @@ msgid "Please select <b>Template Type</b> to download template"
 msgstr ""
 
 #: erpnext/controllers/taxes_and_totals.py:719
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:3757
 #: erpnext/public/js/controllers/taxes_and_totals.js:721
 msgid "Please select Apply Discount On"
 msgstr ""
@@ -37655,6 +38002,8 @@ msgid "Please select Category first"
 msgstr ""
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1449
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9286
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9319
 #: erpnext/public/js/controllers/accounts.js:86
 #: erpnext/public/js/controllers/accounts.js:124
 msgid "Please select Charge Type first"
@@ -37683,7 +38032,7 @@ msgstr ""
 msgid "Please select Customer first"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:438
+#: erpnext/setup/doctype/company/company.py:436
 msgid "Please select Existing Company for creating Chart of Accounts"
 msgstr ""
 
@@ -37764,6 +38113,8 @@ msgstr ""
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:267
 #: erpnext/manufacturing/doctype/bom/bom.js:603
 #: erpnext/manufacturing/doctype/bom/bom.py:261
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6541
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9436
 #: erpnext/public/js/controllers/accounts.js:249
 #: erpnext/public/js/controllers/transaction.js:2809
 msgid "Please select a Company first."
@@ -37785,6 +38136,7 @@ msgstr ""
 msgid "Please select a Supplier"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2706
 #: erpnext/public/js/utils/serial_no_batch_selector.js:651
 msgid "Please select a Warehouse"
 msgstr ""
@@ -37813,6 +38165,7 @@ msgstr ""
 msgid "Please select a default mode of payment"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1392
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:816
 msgid "Please select a field to edit from numpad"
 msgstr ""
@@ -37863,11 +38216,13 @@ msgstr ""
 msgid "Please select item code"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1312
 #: erpnext/public/js/stock_reservation.js:211
 #: erpnext/selling/doctype/sales_order/sales_order.js:396
 msgid "Please select items to reserve."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1382
 #: erpnext/public/js/stock_reservation.js:289
 #: erpnext/selling/doctype/sales_order/sales_order.js:500
 msgid "Please select items to unreserve."
@@ -37913,6 +38268,7 @@ msgstr ""
 msgid "Please select weekly off day"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:933
 #: erpnext/public/js/utils.js:1026
 msgid "Please select {0}"
 msgstr ""
@@ -37923,6 +38279,7 @@ msgstr ""
 msgid "Please select {0} first"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:4088
 #: erpnext/public/js/controllers/transaction.js:99
 msgid "Please set 'Apply Additional Discount On'"
 msgstr ""
@@ -38037,7 +38394,7 @@ msgstr ""
 msgid "Please set a default Holiday List for Company {0}"
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:269
+#: erpnext/setup/doctype/employee/employee.py:357
 msgid "Please set a default Holiday List for Employee {0} or Company {1}"
 msgstr ""
 
@@ -38119,6 +38476,7 @@ msgstr ""
 msgid "Please set opening number of booked depreciations"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6040
 #: erpnext/public/js/controllers/transaction.js:2260
 msgid "Please set recurring after saving"
 msgstr ""
@@ -38151,11 +38509,17 @@ msgstr ""
 msgid "Please set up the Campaign Schedule in the Campaign {0}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1507
 #: erpnext/public/js/queries.js:67
 #: erpnext/stock/report/reserved_stock/reserved_stock.py:26
 msgid "Please set {0}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1478
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1491
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1520
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1539
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1564
 #: erpnext/public/js/queries.js:34 erpnext/public/js/queries.js:49
 #: erpnext/public/js/queries.js:82 erpnext/public/js/queries.js:103
 #: erpnext/public/js/queries.js:130
@@ -38190,6 +38554,7 @@ msgstr ""
 msgid "Please share this email with your support team so that they can find and fix the issue."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:5921
 #: erpnext/public/js/controllers/transaction.js:2128
 msgid "Please specify"
 msgstr ""
@@ -38206,10 +38571,12 @@ msgstr ""
 
 #: erpnext/accounts/doctype/payment_entry/payment_entry.js:1472
 #: erpnext/controllers/accounts_controller.py:3075
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9297
 #: erpnext/public/js/controllers/accounts.js:97
 msgid "Please specify a valid Row ID for row {0} in table {1}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1576
 #: erpnext/public/js/queries.js:144
 msgid "Please specify a {0} first."
 msgstr ""
@@ -38419,6 +38786,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 #: erpnext/manufacturing/report/job_card_summary/job_card_summary.py:134
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10936
 #: erpnext/public/js/purchase_trends_filters.js:38
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.py:25
 #: erpnext/selling/report/sales_partner_commission_summary/sales_partner_commission_summary.py:45
@@ -38457,6 +38825,7 @@ msgstr ""
 msgid "Posting Date cannot be future date"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:4782
 #: erpnext/public/js/controllers/transaction.js:895
 msgid "Posting Date will change to today's date as Edit Posting Date and Time is unchecked. Are you sure want to proceed?"
 msgstr ""
@@ -38656,6 +39025,8 @@ msgstr ""
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.json
 #: erpnext/accounts/doctype/cheque_print_template/cheque_print_template.json
 #: erpnext/edi/doctype/code_list/code_list_import.js:99
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7989
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8017
 #: erpnext/public/js/utils/ledger_preview.js:28
 #: erpnext/public/js/utils/ledger_preview.js:57
 msgid "Preview"
@@ -38912,6 +39283,7 @@ msgstr ""
 msgid "Price Per Unit ({0})"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3904
 #: erpnext/selling/page/point_of_sale/pos_controller.js:720
 msgid "Price is not set for the item."
 msgstr ""
@@ -39068,6 +39440,7 @@ msgstr ""
 msgid "Primary Address"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7585
 #: erpnext/public/js/utils/contact_address_quick_entry.js:72
 msgid "Primary Address Details"
 msgstr ""
@@ -39087,6 +39460,7 @@ msgstr ""
 msgid "Primary Contact"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7554
 #: erpnext/public/js/utils/contact_address_quick_entry.js:40
 msgid "Primary Contact Details"
 msgstr ""
@@ -39113,6 +39487,7 @@ msgstr ""
 msgid "Primary Settings"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2907
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:68
 #: erpnext/templates/pages/material_request_info.html:15
 #: erpnext/templates/pages/order.html:33
@@ -39217,6 +39592,8 @@ msgstr ""
 msgid "Print Preferences"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2902
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3078
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:63
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:270
 msgid "Print Receipt"
@@ -39602,6 +39979,8 @@ msgstr ""
 #: erpnext/accounts/doctype/purchase_invoice_item/purchase_invoice_item.json
 #: erpnext/buying/doctype/purchase_order_item/purchase_order_item.json
 #: erpnext/buying/workspace/buying/buying.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10264
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10498
 #: erpnext/public/js/controllers/buying.js:293
 #: erpnext/public/js/controllers/buying.js:547
 #: erpnext/selling/doctype/product_bundle/product_bundle.json
@@ -39669,7 +40048,7 @@ msgstr ""
 #. Reservation Entry'
 #: erpnext/manufacturing/doctype/workstation/workstation.json
 #: erpnext/manufacturing/workspace/manufacturing/manufacturing.json
-#: erpnext/setup/doctype/company/company.py:378
+#: erpnext/setup/doctype/company/company.py:376
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
 msgid "Production"
 msgstr ""
@@ -39809,6 +40188,7 @@ msgstr ""
 #. Label of a chart in the Accounting Workspace
 #: erpnext/accounts/doctype/account/account.json
 #: erpnext/accounts/workspace/accounting/accounting.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10709
 #: erpnext/public/js/financial_statements.js:129
 msgid "Profit and Loss"
 msgstr ""
@@ -39982,8 +40362,11 @@ msgstr ""
 #: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.js:46
 #: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.py:25
 #: erpnext/projects/workspace/projects/projects.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10823
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10870
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10950
 #: erpnext/public/js/financial_statements.js:250
-#: erpnext/public/js/projects/timer.js:14
+#: erpnext/public/js/projects/timer.js:16
 #: erpnext/public/js/purchase_trends_filters.js:52
 #: erpnext/public/js/sales_trends_filters.js:28
 #: erpnext/selling/doctype/installation_note/installation_note.json
@@ -40322,7 +40705,7 @@ msgstr ""
 msgid "Providing"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:461
+#: erpnext/setup/doctype/company/company.py:459
 msgid "Provisional Account"
 msgstr ""
 
@@ -40386,7 +40769,7 @@ msgstr ""
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 #: erpnext/manufacturing/doctype/material_request_plan_item/material_request_plan_item.json
 #: erpnext/projects/doctype/project/project_dashboard.py:16
-#: erpnext/setup/doctype/company/company.py:366
+#: erpnext/setup/doctype/company/company.py:364
 #: erpnext/stock/doctype/item/item.json
 #: erpnext/stock/doctype/item_reorder/item_reorder.json
 #: erpnext/stock/doctype/material_request/material_request.json
@@ -41052,6 +41435,13 @@ msgstr ""
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
 #: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:28
 #: erpnext/manufacturing/report/bom_explorer/bom_explorer.py:58
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:214
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:299
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:360
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:446
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:714
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1253
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1426
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:213
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:307
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:372
@@ -41257,6 +41647,7 @@ msgstr ""
 msgid "Qty to Deliver"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2469
 #: erpnext/public/js/utils/serial_no_batch_selector.js:373
 msgid "Qty to Fetch"
 msgstr ""
@@ -41475,12 +41866,13 @@ msgstr ""
 msgid "Quality Inspection Template Name"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:4301
 #: erpnext/public/js/controllers/transaction.js:359
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:165
 msgid "Quality Inspection(s)"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:408
+#: erpnext/setup/doctype/company/company.py:406
 msgid "Quality Management"
 msgstr ""
 
@@ -41600,6 +41992,10 @@ msgstr ""
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:194
 #: erpnext/manufacturing/doctype/plant_floor/plant_floor.js:218
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2568
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10505
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:294
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:745
 #: erpnext/public/js/controllers/buying.js:554
 #: erpnext/public/js/stock_analytics.js:50
 #: erpnext/public/js/utils/serial_no_batch_selector.js:485
@@ -41722,6 +42118,7 @@ msgstr ""
 msgid "Quantity is required"
 msgstr ""
 
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:327
 #: erpnext/stock/dashboard/item_dashboard.js:285
 msgid "Quantity must be greater than zero, and less or equal to {0}"
 msgstr ""
@@ -41771,6 +42168,7 @@ msgstr ""
 msgid "Quantity to Produce should be greater than zero."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8383
 #: erpnext/public/js/utils/barcode_scanner.js:236
 msgid "Quantity to Scan"
 msgstr ""
@@ -41811,6 +42209,9 @@ msgstr ""
 #: erpnext/maintenance/doctype/maintenance_schedule_item/maintenance_schedule_item.json
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:58
 #: erpnext/manufacturing/report/production_analytics/production_analytics.js:35
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10797
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10854
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10918
 #: erpnext/public/js/financial_statements.js:220
 #: erpnext/public/js/purchase_trends_filters.js:20
 #: erpnext/public/js/sales_trends_filters.js:12
@@ -42103,6 +42504,8 @@ msgstr ""
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 #: erpnext/manufacturing/doctype/bom_scrap_item/bom_scrap_item.json
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:724
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:301
 #: erpnext/public/js/utils.js:793
 #: erpnext/selling/doctype/product_bundle_item/product_bundle_item.json
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
@@ -42419,6 +42822,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
 #: erpnext/manufacturing/doctype/workstation/workstation.js:462
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:341
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:353
 msgid "Raw Materials"
 msgstr ""
@@ -42829,12 +43233,16 @@ msgstr ""
 msgid "Receiving"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2739
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3501
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3534
 #: erpnext/selling/page/point_of_sale/pos_controller.js:260
 #: erpnext/selling/page/point_of_sale/pos_controller.js:297
 #: erpnext/selling/page/point_of_sale/pos_past_order_list.js:17
 msgid "Recent Orders"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1455
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:891
 msgid "Recent Transactions"
 msgstr ""
@@ -42893,6 +43301,7 @@ msgstr ""
 msgid "Reconcile on Advance Payment Date"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:449
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:221
 msgid "Reconcile the Bank Transaction"
 msgstr ""
@@ -43013,6 +43422,7 @@ msgstr ""
 #. Label of the redeem_loyalty_points (Check) field in DocType 'Sales Invoice'
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2612
 #: erpnext/selling/page/point_of_sale/pos_payment.js:609
 msgid "Redeem Loyalty Points"
 msgstr ""
@@ -43153,10 +43563,12 @@ msgstr ""
 #. Label of the cheque_date (Date) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
 #: erpnext/accounts/report/bank_reconciliation_statement/bank_reconciliation_statement.html:24
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:351
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:119
 msgid "Reference Date"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6137
 #: erpnext/public/js/controllers/transaction.js:2366
 msgid "Reference Date for Early Payment Discount"
 msgstr ""
@@ -43304,6 +43716,8 @@ msgstr ""
 #. Label of the cheque_no (Data) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:77
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:362
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:83
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:130
 msgid "Reference Number"
@@ -43432,6 +43846,8 @@ msgstr ""
 msgid "Referral Sales Partner"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:3156
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3443
 #: erpnext/public/js/plant_floor_visual/visual_plant.js:151
 #: erpnext/selling/page/point_of_sale/pos_controller.js:194
 #: erpnext/selling/page/sales_funnel/sales_funnel.js:53
@@ -43541,6 +43957,7 @@ msgstr ""
 msgid "Rejected Warehouse"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2709
 #: erpnext/public/js/utils/serial_no_batch_selector.js:655
 msgid "Rejected Warehouse and Accepted Warehouse cannot be same."
 msgstr ""
@@ -43575,10 +43992,12 @@ msgstr ""
 msgid "Relieving Date"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:357
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:125
 msgid "Remaining"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2676
 #: erpnext/selling/page/point_of_sale/pos_payment.js:679
 msgid "Remaining Amount"
 msgstr ""
@@ -43592,6 +44011,7 @@ msgstr ""
 
 #. Label of the remark (Small Text) field in DocType 'Journal Entry'
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2509
 #: erpnext/selling/page/point_of_sale/pos_payment.js:489
 msgid "Remark"
 msgstr ""
@@ -44035,6 +44455,7 @@ msgstr ""
 msgid "Reqd Qty (BOM)"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:733
 #: erpnext/public/js/utils.js:803
 msgid "Reqd by date"
 msgstr ""
@@ -44247,7 +44668,7 @@ msgstr ""
 msgid "Research"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:414
+#: erpnext/setup/doctype/company/company.py:412
 msgid "Research & Development"
 msgstr ""
 
@@ -44302,6 +44723,7 @@ msgstr ""
 #. Label of the reserve_stock (Check) field in DocType 'Sales Order'
 #. Label of the reserve_stock (Check) field in DocType 'Sales Order Item'
 #: erpnext/manufacturing/doctype/production_plan/production_plan.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1146
 #: erpnext/public/js/stock_reservation.js:15
 #: erpnext/selling/doctype/sales_order/sales_order.js:374
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -44396,6 +44818,7 @@ msgstr ""
 #. Name of a report
 #: erpnext/manufacturing/doctype/plant_floor/stock_summary_template.html:24
 #: erpnext/manufacturing/doctype/work_order/work_order.js:824
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1334
 #: erpnext/public/js/stock_reservation.js:235
 #: erpnext/selling/doctype/sales_order/sales_order.js:99
 #: erpnext/selling/doctype/sales_order/sales_order.js:434
@@ -44452,6 +44875,7 @@ msgstr ""
 msgid "Reserved for sub contracting"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1304
 #: erpnext/public/js/stock_reservation.js:202
 #: erpnext/selling/doctype/sales_order/sales_order.js:387
 #: erpnext/stock/doctype/pick_list/pick_list.js:272
@@ -44818,6 +45242,7 @@ msgid "Return of Components"
 msgstr ""
 
 #. Option for the 'Tracking Status' (Select) field in DocType 'Shipment'
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2968
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:138
 #: erpnext/stock/doctype/shipment/shipment.json
 msgid "Returned"
@@ -45461,6 +45886,7 @@ msgstr ""
 msgid "Row #{0}: From Time and To Time fields are required"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8513
 #: erpnext/public/js/utils/barcode_scanner.js:394
 msgid "Row #{0}: Item added"
 msgstr ""
@@ -45537,6 +45963,7 @@ msgstr ""
 msgid "Row #{0}: Please update deferred revenue/expense account in item row or default account in company master"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8511
 #: erpnext/public/js/utils/barcode_scanner.js:392
 msgid "Row #{0}: Qty increased by {1}"
 msgstr ""
@@ -45711,6 +46138,7 @@ msgstr ""
 msgid "Row #{0}: You must select an Asset for Item {1}."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10213
 #: erpnext/public/js/controllers/buying.js:236
 msgid "Row #{0}: {1} can not be negative for item {2}"
 msgstr ""
@@ -46251,6 +46679,7 @@ msgstr ""
 msgid "SLA Paused On"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1040
 #: erpnext/public/js/utils.js:1163
 msgid "SLA is on hold since {0}"
 msgstr ""
@@ -46324,6 +46753,11 @@ msgstr ""
 msgid "Salary"
 msgstr ""
 
+#. Label of the overtime_adjust (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Salary Adjustment"
+msgstr ""
+
 #. Label of the salary_currency (Link) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Salary Currency"
@@ -46353,8 +46787,8 @@ msgstr ""
 #: erpnext/regional/report/vat_audit_report/vat_audit_report.py:185
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
-#: erpnext/setup/doctype/company/company.py:360
-#: erpnext/setup/doctype/company/company.py:523
+#: erpnext/setup/doctype/company/company.py:358
+#: erpnext/setup/doctype/company/company.py:521
 #: erpnext/setup/doctype/company/company_dashboard.py:9
 #: erpnext/setup/doctype/sales_person/sales_person_dashboard.py:12
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:280
@@ -46362,7 +46796,7 @@ msgstr ""
 msgid "Sales"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:523
+#: erpnext/setup/doctype/company/company.py:521
 msgid "Sales Account"
 msgstr ""
 
@@ -47231,6 +47665,7 @@ msgstr ""
 
 #. Label of the sample_size (Float) field in DocType 'Quality Inspection'
 #: erpnext/manufacturing/report/quality_inspection_summary/quality_inspection_summary.py:93
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6193
 #: erpnext/public/js/controllers/transaction.js:2424
 #: erpnext/stock/doctype/quality_inspection/quality_inspection.json
 msgid "Sample Size"
@@ -47277,6 +47712,8 @@ msgstr ""
 #: erpnext/accounts/doctype/ledger_merge/ledger_merge.js:75
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:283
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.js:319
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7797
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2157
 #: erpnext/public/js/call_popup/call_popup.js:169
 #: erpnext/selling/page/point_of_sale/pos_payment.js:62
 msgid "Save"
@@ -47314,6 +47751,7 @@ msgstr ""
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8363
 #: erpnext/public/js/utils/barcode_scanner.js:215
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -47326,6 +47764,7 @@ msgstr ""
 msgid "Scan Barcode"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2279
 #: erpnext/public/js/utils/serial_no_batch_selector.js:160
 msgid "Scan Batch No"
 msgstr ""
@@ -47342,10 +47781,12 @@ msgstr ""
 msgid "Scan Mode"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2265
 #: erpnext/public/js/utils/serial_no_batch_selector.js:145
 msgid "Scan Serial No"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8335
 #: erpnext/public/js/utils/barcode_scanner.js:179
 msgid "Scan barcode for item {0}"
 msgstr ""
@@ -47360,6 +47801,7 @@ msgstr ""
 msgid "Scanned Cheque"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8394
 #: erpnext/public/js/utils/barcode_scanner.js:247
 msgid "Scanned Quantity"
 msgstr ""
@@ -47558,6 +48000,8 @@ msgstr ""
 msgid "Scrapped"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:510
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2775
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:152
 #: erpnext/selling/page/point_of_sale/pos_past_order_list.js:58
 #: erpnext/templates/pages/help.html:14
@@ -47581,14 +48025,17 @@ msgstr ""
 msgid "Search Term Param Name"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:980
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:323
 msgid "Search by customer name, phone, email."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2777
 #: erpnext/selling/page/point_of_sale/pos_past_order_list.js:60
 msgid "Search by invoice id or customer name"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:512
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:154
 msgid "Search by item code, serial number or barcode"
 msgstr ""
@@ -47663,6 +48110,7 @@ msgstr ""
 msgid "Select Accounting Dimension."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:416
 #: erpnext/public/js/utils.js:476
 msgid "Select Alternate Item"
 msgstr ""
@@ -47688,6 +48136,7 @@ msgid "Select BOM, Qty and For Warehouse"
 msgstr ""
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.js:194
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9882
 #: erpnext/public/js/utils/sales_common.js:417
 #: erpnext/stock/doctype/pick_list/pick_list.js:353
 msgid "Select Batch No"
@@ -47771,6 +48220,7 @@ msgstr ""
 msgid "Select Items based on Delivery Date"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6227
 #: erpnext/public/js/controllers/transaction.js:2460
 msgid "Select Items for Quality Inspection"
 msgstr ""
@@ -47793,6 +48243,7 @@ msgid "Select Job Worker Address"
 msgstr ""
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.js:1118
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1514
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:955
 msgid "Select Loyalty Program"
 msgstr ""
@@ -47807,12 +48258,14 @@ msgid "Select Quantity"
 msgstr ""
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.js:194
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9882
 #: erpnext/public/js/utils/sales_common.js:417
 #: erpnext/stock/doctype/pick_list/pick_list.js:353
 msgid "Select Serial No"
 msgstr ""
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.js:197
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9884
 #: erpnext/public/js/utils/sales_common.js:420
 #: erpnext/stock/doctype/pick_list/pick_list.js:356
 msgid "Select Serial and Batch"
@@ -47844,6 +48297,7 @@ msgstr ""
 msgid "Select View"
 msgstr ""
 
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:478
 #: erpnext/public/js/bank_reconciliation_tool/dialog_manager.js:251
 msgid "Select Vouchers to Match"
 msgstr ""
@@ -47872,6 +48326,7 @@ msgstr ""
 msgid "Select a Default Priority."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2233
 #: erpnext/selling/page/point_of_sale/pos_payment.js:146
 msgid "Select a Payment Method."
 msgstr ""
@@ -47896,6 +48351,7 @@ msgstr ""
 msgid "Select an account to print in account currency"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2861
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:19
 msgid "Select an invoice to load summary data"
 msgstr ""
@@ -47908,6 +48364,7 @@ msgstr ""
 msgid "Select at least one value from each of the attributes."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2051
 #: erpnext/public/js/utils/party.js:356
 msgid "Select company first"
 msgstr ""
@@ -47922,6 +48379,7 @@ msgstr ""
 msgid "Select finance book for the item {0} at row {1}"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:522
 #: erpnext/selling/page/point_of_sale/pos_item_selector.js:164
 msgid "Select item group"
 msgstr ""
@@ -48010,6 +48468,7 @@ msgstr ""
 msgid "Selected date is"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8665
 #: erpnext/public/js/bulk_transaction_processing.js:34
 msgid "Selected document must be in submitted state"
 msgstr ""
@@ -48091,6 +48550,7 @@ msgstr ""
 msgid "Semi Finished Goods / Finished Goods"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2898
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:58
 msgid "Send"
 msgstr ""
@@ -48132,6 +48592,7 @@ msgid "Send Now"
 msgstr ""
 
 #. Label of the send_sms (Button) field in DocType 'SMS Center'
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:4463
 #: erpnext/public/js/controllers/transaction.js:544
 #: erpnext/selling/doctype/sms_center/sms_center.json
 msgid "Send SMS"
@@ -48235,6 +48696,7 @@ msgstr ""
 msgid "Serial / Batch No"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:133
 #: erpnext/public/js/utils.js:126
 msgid "Serial / Batch Nos"
 msgstr ""
@@ -48286,6 +48748,8 @@ msgstr ""
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 #: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.js:74
 #: erpnext/manufacturing/report/cost_of_poor_quality_report/cost_of_poor_quality_report.py:114
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2514
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6206
 #: erpnext/public/js/controllers/transaction.js:2437
 #: erpnext/public/js/utils/serial_no_batch_selector.js:421
 #: erpnext/selling/doctype/installation_note_item/installation_note_item.json
@@ -48335,6 +48799,7 @@ msgstr ""
 msgid "Serial No Ledger"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2370
 #: erpnext/public/js/utils/serial_no_batch_selector.js:259
 msgid "Serial No Range"
 msgstr ""
@@ -48387,10 +48852,12 @@ msgstr ""
 msgid "Serial No is mandatory for Item {0}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2652
 #: erpnext/public/js/utils/serial_no_batch_selector.js:588
 msgid "Serial No {0} already exists"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8453
 #: erpnext/public/js/utils/barcode_scanner.js:321
 msgid "Serial No {0} already scanned"
 msgstr ""
@@ -48412,6 +48879,7 @@ msgstr ""
 msgid "Serial No {0} does not exists"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8520
 #: erpnext/public/js/utils/barcode_scanner.js:402
 msgid "Serial No {0} is already added"
 msgstr ""
@@ -48436,10 +48904,14 @@ msgstr ""
 msgid "Serial No {0} not found"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:4025
 #: erpnext/selling/page/point_of_sale/pos_controller.js:875
 msgid "Serial No: {0} has already been transacted into another POS Invoice."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2154
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2305
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8416
 #: erpnext/public/js/utils/barcode_scanner.js:271
 #: erpnext/public/js/utils/serial_no_batch_selector.js:16
 #: erpnext/public/js/utils/serial_no_batch_selector.js:190
@@ -48447,6 +48919,8 @@ msgstr ""
 msgid "Serial Nos"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2157
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2308
 #: erpnext/public/js/utils/serial_no_batch_selector.js:20
 #: erpnext/public/js/utils/serial_no_batch_selector.js:194
 msgid "Serial Nos / Batch Nos"
@@ -48595,6 +49069,7 @@ msgstr ""
 msgid "Serial number {0} entered more than once"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2036
 #: erpnext/selling/page/point_of_sale/pos_item_details.js:449
 msgid "Serial numbers unavailable for Item {0} under warehouse {1}. Please try changing warehouse."
 msgstr ""
@@ -48891,11 +49366,13 @@ msgid "Service Stop Date"
 msgstr ""
 
 #: erpnext/accounts/deferred_revenue.py:44
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:5293
 #: erpnext/public/js/controllers/transaction.js:1475
 msgid "Service Stop Date cannot be after Service End Date"
 msgstr ""
 
 #: erpnext/accounts/deferred_revenue.py:41
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:5290
 #: erpnext/public/js/controllers/transaction.js:1472
 msgid "Service Stop Date cannot be before Service Start Date"
 msgstr ""
@@ -48993,10 +49470,6 @@ msgstr ""
 msgid "Set Parent Row No in Items Table"
 msgstr ""
 
-#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:279
-msgid "Set Password"
-msgstr ""
-
 #. Label of the set_posting_date (Check) field in DocType 'POS Opening Entry'
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.json
 msgid "Set Posting Date"
@@ -49086,6 +49559,7 @@ msgstr ""
 msgid "Set as Completed"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9972
 #: erpnext/public/js/utils/sales_common.js:516
 #: erpnext/selling/doctype/quotation/quotation.js:129
 msgid "Set as Lost"
@@ -49109,11 +49583,11 @@ msgstr ""
 msgid "Set by Item Tax Template"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:450
+#: erpnext/setup/doctype/company/company.py:448
 msgid "Set default inventory account for perpetual inventory"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:460
+#: erpnext/setup/doctype/company/company.py:458
 msgid "Set default {0} account for non stock items"
 msgstr ""
 
@@ -50027,6 +50501,7 @@ msgstr ""
 msgid "Sold"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2922
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:86
 msgid "Sold by"
 msgstr ""
@@ -50135,6 +50610,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/work_order_item/work_order_item.json
 #: erpnext/manufacturing/doctype/work_order_operation/work_order_operation.json
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.py:126
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:273
 #: erpnext/stock/dashboard/item_dashboard.js:227
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
 #: erpnext/stock/doctype/stock_entry/stock_entry.js:643
@@ -50165,6 +50641,7 @@ msgstr ""
 msgid "Source and target warehouse cannot be same for row {0}"
 msgstr ""
 
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:331
 #: erpnext/stock/dashboard/item_dashboard.js:290
 msgid "Source and target warehouse must be different"
 msgstr ""
@@ -50382,7 +50859,7 @@ msgstr ""
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:722
 #: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:57
-#: erpnext/public/js/projects/timer.js:35
+#: erpnext/public/js/projects/timer.js:37
 msgid "Start"
 msgstr ""
 
@@ -50419,6 +50896,7 @@ msgstr ""
 #: erpnext/projects/doctype/timesheet/timesheet.json
 #: erpnext/projects/report/project_summary/project_summary.py:76
 #: erpnext/projects/report/timesheet_billing_summary/timesheet_billing_summary.js:47
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10763
 #: erpnext/public/js/financial_statements.js:186
 #: erpnext/selling/report/payment_terms_status_for_sales_order/payment_terms_status_for_sales_order.js:16
 #: erpnext/setup/doctype/vehicle/vehicle.json
@@ -50479,6 +50957,7 @@ msgstr ""
 #: erpnext/accounts/report/deferred_revenue_and_expense/deferred_revenue_and_expense.js:56
 #: erpnext/accounts/report/financial_ratios/financial_ratios.js:17
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.js:81
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10777
 #: erpnext/public/js/financial_statements.js:200
 msgid "Start Year"
 msgstr ""
@@ -50546,6 +51025,7 @@ msgstr ""
 #: erpnext/crm/doctype/lead/lead.json
 #: erpnext/crm/doctype/opportunity/opportunity.json
 #: erpnext/crm/report/lead_details/lead_details.py:61
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7612
 #: erpnext/public/js/utils/contact_address_quick_entry.js:99
 #: erpnext/stock/doctype/warehouse/warehouse.json
 msgid "State/Province"
@@ -50728,6 +51208,7 @@ msgstr ""
 #: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.py:92
 #: erpnext/projects/report/project_summary/project_summary.js:23
 #: erpnext/projects/report/project_summary/project_summary.py:64
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:3121
 #: erpnext/public/js/plant_floor_visual/visual_plant.js:111
 #: erpnext/quality_management/doctype/non_conformance/non_conformance.json
 #: erpnext/quality_management/doctype/quality_action/quality_action.json
@@ -51036,6 +51517,8 @@ msgstr ""
 #. Name of a report
 #. Label of a Link in the Stock Workspace
 #. Label of a shortcut in the Stock Workspace
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2108
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7997
 #: erpnext/public/js/controllers/stock_controller.js:66
 #: erpnext/public/js/utils/ledger_preview.js:37
 #: erpnext/stock/doctype/item/item.js:100
@@ -51219,6 +51702,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/work_order/work_order.js:819
 #: erpnext/manufacturing/doctype/work_order/work_order.js:826
 #: erpnext/manufacturing/doctype/work_order/work_order_dashboard.py:14
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1143
 #: erpnext/public/js/stock_reservation.js:12
 #: erpnext/selling/doctype/sales_order/sales_order.js:78
 #: erpnext/selling/doctype/sales_order/sales_order.js:92
@@ -51256,6 +51740,7 @@ msgid "Stock Reservation Entries Created"
 msgstr ""
 
 #. Name of a DocType
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1399
 #: erpnext/public/js/stock_reservation.js:308
 #: erpnext/selling/doctype/sales_order/sales_order.js:444
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.json
@@ -51420,6 +51905,7 @@ msgstr ""
 msgid "Stock UOM Quantity"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1328
 #: erpnext/public/js/stock_reservation.js:229
 #: erpnext/selling/doctype/sales_order/sales_order.js:428
 msgid "Stock Unreservation"
@@ -51542,6 +52028,7 @@ msgstr ""
 msgid "Stock not available for Item {0} in Warehouse {1}."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:4007
 #: erpnext/selling/page/point_of_sale/pos_controller.js:855
 msgid "Stock quantity not enough for Item Code: {0} under warehouse {1}. Available quantity {2} {3}."
 msgstr ""
@@ -51628,7 +52115,7 @@ msgstr ""
 msgid "Stopped Work Order cannot be cancelled, Unstop it first to cancel"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:287
+#: erpnext/setup/doctype/company/company.py:285
 #: erpnext/setup/setup_wizard/operations/defaults_setup.py:33
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:502
 #: erpnext/stock/doctype/item/item.py:285
@@ -51655,6 +52142,7 @@ msgstr ""
 msgid "Sub Assemblies & Raw Materials"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:290
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:298
 msgid "Sub Assembly Item"
 msgstr ""
@@ -51665,6 +52153,7 @@ msgstr ""
 msgid "Sub Assembly Item Code"
 msgstr ""
 
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:386
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:403
 msgid "Sub Assembly Item is mandatory"
 msgstr ""
@@ -51933,6 +52422,8 @@ msgstr ""
 #: erpnext/accounts/doctype/payment_order/payment_order.js:139
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.js:311
 #: erpnext/manufacturing/doctype/workstation/workstation.js:313
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2803
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3378
 #: erpnext/public/js/payment/payments.js:30
 #: erpnext/selling/page/point_of_sale/pos_controller.js:119
 #: erpnext/templates/pages/task_info.html:101
@@ -51969,10 +52460,6 @@ msgstr ""
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:178
 msgid "Submit this Work Order for further processing."
-msgstr ""
-
-#: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:280
-msgid "Submit your Quotation"
 msgstr ""
 
 #. Option for the 'Status' (Select) field in DocType 'Payment Entry'
@@ -52384,6 +52871,8 @@ msgstr ""
 #: erpnext/crm/doctype/contract/contract.json
 #: erpnext/manufacturing/doctype/blanket_order/blanket_order.json
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10948
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10961
 #: erpnext/public/js/purchase_trends_filters.js:50
 #: erpnext/public/js/purchase_trends_filters.js:63
 #: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.json
@@ -52487,6 +52976,7 @@ msgstr ""
 #: erpnext/buying/doctype/supplier/supplier.json
 #: erpnext/buying/report/item_wise_purchase_history/item_wise_purchase_history.py:105
 #: erpnext/buying/workspace/buying/buying.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10949
 #: erpnext/public/js/purchase_trends_filters.js:51
 #: erpnext/regional/doctype/import_supplier_invoice/import_supplier_invoice.json
 #: erpnext/regional/report/irs_1099/irs_1099.js:26
@@ -52871,6 +53361,7 @@ msgstr ""
 msgid "Suspended"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2470
 #: erpnext/selling/page/point_of_sale/pos_payment.js:442
 msgid "Switch Between Payment Modes"
 msgstr ""
@@ -53288,6 +53779,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/production_plan_sub_assembly_item/production_plan_sub_assembly_item.json
 #: erpnext/manufacturing/doctype/work_order/work_order.js:919
 #: erpnext/manufacturing/doctype/work_order/work_order.json
+#: erpnext/public/dist/js/item-dashboard.bundle.EFDNYWT4.js:280
 #: erpnext/stock/dashboard/item_dashboard.js:234
 #: erpnext/stock/doctype/delivery_note_item/delivery_note_item.json
 #: erpnext/stock/doctype/material_request_item/material_request_item.json
@@ -53356,7 +53848,7 @@ msgstr ""
 #: erpnext/projects/report/daily_timesheet_summary/daily_timesheet_summary.py:33
 #: erpnext/projects/report/delayed_tasks_summary/delayed_tasks_summary.py:90
 #: erpnext/projects/workspace/projects/projects.json
-#: erpnext/public/js/projects/timer.js:15
+#: erpnext/public/js/projects/timer.js:17
 #: erpnext/support/doctype/issue/issue.js:29
 #: erpnext/templates/pages/projects.html:56
 #: erpnext/templates/pages/timelog_info.html:28
@@ -53910,6 +54402,11 @@ msgstr ""
 msgid "Team"
 msgstr ""
 
+#. Label of the team_lead (Link) field in DocType 'Department'
+#: erpnext/setup/doctype/department/department.json
+msgid "Team Leader"
+msgstr ""
+
 #. Label of the team_member (Link) field in DocType 'Maintenance Team Member'
 #: erpnext/assets/doctype/maintenance_team_member/maintenance_team_member.json
 msgid "Team Member"
@@ -54207,6 +54704,7 @@ msgstr ""
 #: erpnext/crm/workspace/crm/crm.json
 #: erpnext/maintenance/doctype/maintenance_schedule/maintenance_schedule.json
 #: erpnext/maintenance/doctype/maintenance_visit/maintenance_visit.json
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10869
 #: erpnext/public/js/sales_trends_filters.js:27
 #: erpnext/selling/doctype/customer/customer.json
 #: erpnext/selling/doctype/installation_note/installation_note.json
@@ -54377,6 +54875,7 @@ msgstr ""
 msgid "The currency of invoice {} ({}) is different from the currency of this dunning ({})."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3457
 #: erpnext/selling/page/point_of_sale/pos_controller.js:209
 msgid "The current POS opening entry is outdated. Please close it and create a new one."
 msgstr ""
@@ -54434,7 +54933,7 @@ msgstr ""
 msgid "The following deleted attributes exist in Variants but not in the Template. You can either delete the Variants or keep the attribute(s) in template."
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:176
+#: erpnext/setup/doctype/employee/employee.py:264
 msgid "The following employees are currently still reporting to {0}:"
 msgstr ""
 
@@ -54537,6 +55036,7 @@ msgstr ""
 msgid "The percentage you are allowed to transfer more against the quantity ordered. For example, if you have ordered 100 units, and your Allowance is 10%, then you are allowed transfer 110 units."
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:799
 #: erpnext/public/js/utils.js:875
 msgid "The reserved stock will be released when you update items. Are you certain you wish to proceed?"
 msgstr ""
@@ -54667,6 +55167,7 @@ msgstr ""
 msgid "The {0} ({1}) must be equal to {2} ({3})"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:6576
 #: erpnext/public/js/controllers/transaction.js:2846
 msgid "The {0} contains Unit Price Items."
 msgstr ""
@@ -54760,6 +55261,7 @@ msgstr ""
 msgid "There was an issue connecting to Plaid's authentication server. Check browser console for more information"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3133
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:328
 msgid "There were errors while sending email. Please try again."
 msgstr ""
@@ -55172,11 +55674,11 @@ msgid "Timeline"
 msgstr ""
 
 #: erpnext/manufacturing/doctype/workstation/workstation_job_card.html:36
-#: erpnext/public/js/projects/timer.js:5
+#: erpnext/public/js/projects/timer.js:7
 msgid "Timer"
 msgstr ""
 
-#: erpnext/public/js/projects/timer.js:151
+#: erpnext/public/js/projects/timer.js:191
 msgid "Timer exceeded the given hours."
 msgstr ""
 
@@ -56228,6 +56730,7 @@ msgstr ""
 msgid "Total Issues"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:784
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:92
 msgid "Total Items"
 msgstr ""
@@ -56414,6 +56917,8 @@ msgstr ""
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.py:147
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1167
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1168
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:537
@@ -56567,6 +57072,7 @@ msgstr ""
 msgid "Total Time in Mins"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:112
 #: erpnext/public/js/utils.js:102
 msgid "Total Unpaid: {0}"
 msgstr ""
@@ -56643,6 +57149,11 @@ msgstr ""
 msgid "Total contribution percentage should be equal to 100"
 msgstr ""
 
+#. Label of the days (Int) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "Total days"
+msgstr ""
+
 #: erpnext/projects/doctype/project/project_dashboard.html:2
 msgid "Total hours: {0}"
 msgstr ""
@@ -56704,6 +57215,7 @@ msgstr ""
 #: erpnext/assets/doctype/asset_repair/asset_repair.json
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2861
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
 #: erpnext/selling/page/point_of_sale/pos_past_order_summary.js:19
@@ -57298,6 +57810,7 @@ msgstr ""
 #: erpnext/manufacturing/doctype/workstation/workstation.js:480
 #: erpnext/manufacturing/report/bom_explorer/bom_explorer.py:59
 #: erpnext/manufacturing/report/bom_operations_time/bom_operations_time.py:110
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:685
 #: erpnext/public/js/stock_analytics.js:94 erpnext/public/js/utils.js:754
 #: erpnext/quality_management/doctype/quality_goal_objective/quality_goal_objective.json
 #: erpnext/quality_management/doctype/quality_review_objective/quality_review_objective.json
@@ -57435,11 +57948,14 @@ msgstr ""
 msgid "UnBuffered Cursor"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8073
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8171
 #: erpnext/public/js/utils/unreconcile.js:25
 #: erpnext/public/js/utils/unreconcile.js:133
 msgid "UnReconcile"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8168
 #: erpnext/public/js/utils/unreconcile.js:130
 msgid "UnReconcile Allocations"
 msgstr ""
@@ -57465,6 +57981,7 @@ msgstr ""
 #. Label of the unallocated_amount (Currency) field in DocType 'Payment Entry'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
 #: erpnext/accounts/doctype/payment_entry/payment_entry.json
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:71
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:74
 msgid "Unallocated Amount"
 msgstr ""
@@ -57545,6 +58062,7 @@ msgstr ""
 msgid "Unknown"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7738
 #: erpnext/public/js/call_popup/call_popup.js:110
 msgid "Unknown Caller"
 msgstr ""
@@ -57671,6 +58189,7 @@ msgstr ""
 msgid "Unreserve"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1343
 #: erpnext/public/js/stock_reservation.js:244
 #: erpnext/selling/doctype/sales_order/sales_order.js:479
 msgid "Unreserve Stock"
@@ -57684,6 +58203,7 @@ msgstr ""
 msgid "Unreserve for Sub-assembly"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1374
 #: erpnext/public/js/stock_reservation.js:280
 #: erpnext/selling/doctype/sales_order/sales_order.js:491
 #: erpnext/stock/doctype/pick_list/pick_list.js:287
@@ -57759,6 +58279,12 @@ msgstr ""
 #: erpnext/accounts/doctype/cost_center/cost_center.js:107
 #: erpnext/manufacturing/doctype/job_card/job_card.js:318
 #: erpnext/manufacturing/doctype/job_card/job_card.js:387
+#: erpnext/public/dist/js/bom_configurator.bundle.WTULZBXN.js:471
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:536
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:826
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2155
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2306
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8338
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:500
 #: erpnext/public/js/utils.js:598 erpnext/public/js/utils.js:902
 #: erpnext/public/js/utils/barcode_scanner.js:183
@@ -57777,6 +58303,7 @@ msgstr ""
 msgid "Update Account Number / Name"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2117
 #: erpnext/selling/page/point_of_sale/pos_payment.js:22
 msgid "Update Additional Information"
 msgstr ""
@@ -57894,6 +58421,7 @@ msgid "Update Existing Records"
 msgstr ""
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:362
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:778
 #: erpnext/public/js/utils.js:854
 #: erpnext/selling/doctype/sales_order/sales_order.js:59
 msgid "Update Items"
@@ -58235,7 +58763,7 @@ msgstr ""
 msgid "User has not applied rule on the invoice {0}"
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:191
+#: erpnext/setup/doctype/employee/employee.py:279
 msgid "User {0} does not exist"
 msgstr ""
 
@@ -58243,19 +58771,19 @@ msgstr ""
 msgid "User {0} doesn't have any default POS Profile. Check Default at Row {1} for this User."
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:208
+#: erpnext/setup/doctype/employee/employee.py:296
 msgid "User {0} is already assigned to Employee {1}"
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:193
+#: erpnext/setup/doctype/employee/employee.py:281
 msgid "User {0} is disabled"
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:246
+#: erpnext/setup/doctype/employee/employee.py:334
 msgid "User {0}: Removed Employee Self Service role as there is no mapped employee."
 msgstr ""
 
-#: erpnext/setup/doctype/employee/employee.py:241
+#: erpnext/setup/doctype/employee/employee.py:329
 msgid "User {0}: Removed Employee role as there is no mapped employee."
 msgstr ""
 
@@ -58588,6 +59116,7 @@ msgstr ""
 msgid "Valuation type charges can not be marked as Inclusive"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9395
 #: erpnext/public/js/controllers/accounts.js:203
 msgid "Valuation type charges can not marked as Inclusive"
 msgstr ""
@@ -58904,6 +59433,9 @@ msgstr ""
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:107
 #: erpnext/projects/doctype/project/project.js:109
 #: erpnext/projects/doctype/project/project.js:126
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:144
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2118
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2135
 #: erpnext/public/js/controllers/stock_controller.js:76
 #: erpnext/public/js/controllers/stock_controller.js:95
 #: erpnext/public/js/utils.js:137
@@ -58970,6 +59502,7 @@ msgstr ""
 msgid "View attachments"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7813
 #: erpnext/public/js/call_popup/call_popup.js:186
 msgid "View call log"
 msgstr ""
@@ -59092,6 +59625,7 @@ msgstr ""
 #: erpnext/accounts/report/payment_ledger/payment_ledger.js:65
 #: erpnext/accounts/report/payment_ledger/payment_ledger.py:168
 #: erpnext/accounts/report/voucher_wise_balance/voucher_wise_balance.py:19
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8121
 #: erpnext/public/js/utils/unreconcile.js:79
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
@@ -59163,6 +59697,7 @@ msgstr ""
 #: erpnext/accounts/report/purchase_register/purchase_register.py:158
 #: erpnext/accounts/report/sales_register/sales_register.py:174
 #: erpnext/accounts/report/voucher_wise_balance/voucher_wise_balance.py:17
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:8113
 #: erpnext/public/js/utils/unreconcile.js:71
 #: erpnext/stock/doctype/repost_item_valuation/repost_item_valuation.json
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.json
@@ -59337,6 +59872,10 @@ msgstr ""
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:365
 #: erpnext/manufacturing/report/production_planning_report/production_planning_report.py:408
 #: erpnext/manufacturing/report/work_order_stock_report/work_order_stock_report.js:8
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:482
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1240
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:1417
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2220
 #: erpnext/public/js/stock_analytics.js:69
 #: erpnext/public/js/stock_reservation.js:121
 #: erpnext/public/js/stock_reservation.js:326 erpnext/public/js/utils.js:542
@@ -60078,6 +60617,7 @@ msgstr ""
 
 #. Label of the withdrawal (Currency) field in DocType 'Bank Transaction'
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.json
+#: erpnext/public/dist/js/bank-reconciliation-tool.bundle.G7MHMAFO.js:65
 #: erpnext/public/js/bank_reconciliation_tool/data_table_manager.js:67
 msgid "Withdrawal"
 msgstr ""
@@ -60096,7 +60636,7 @@ msgstr ""
 #: erpnext/assets/doctype/asset/asset_list.js:12
 #: erpnext/manufacturing/doctype/job_card/job_card.json
 #: erpnext/manufacturing/doctype/job_card_operation/job_card_operation.json
-#: erpnext/setup/doctype/company/company.py:288
+#: erpnext/setup/doctype/company/company.py:286
 #: erpnext/support/doctype/warranty_claim/warranty_claim.json
 msgid "Work In Progress"
 msgstr ""
@@ -60377,7 +60917,7 @@ msgstr ""
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
-#: erpnext/setup/doctype/company/company.py:541
+#: erpnext/setup/doctype/company/company.py:539
 msgid "Write Off"
 msgstr ""
 
@@ -60541,6 +61081,9 @@ msgstr ""
 #: erpnext/maintenance/doctype/maintenance_schedule_item/maintenance_schedule_item.json
 #: erpnext/manufacturing/report/exponential_smoothing_forecasting/exponential_smoothing_forecasting.js:60
 #: erpnext/manufacturing/report/production_analytics/production_analytics.js:36
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10799
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10856
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:10920
 #: erpnext/public/js/financial_statements.js:222
 #: erpnext/public/js/purchase_trends_filters.js:22
 #: erpnext/public/js/sales_trends_filters.js:14
@@ -60666,6 +61209,7 @@ msgstr ""
 msgid "You can only select one mode of payment as default"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2595
 #: erpnext/selling/page/point_of_sale/pos_payment.js:590
 msgid "You can redeem upto {0}."
 msgstr ""
@@ -60718,6 +61262,7 @@ msgstr ""
 msgid "You cannot enable both the settings '{0}' and '{1}'."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2623
 #: erpnext/selling/page/point_of_sale/pos_payment.js:620
 msgid "You cannot redeem more than {0}."
 msgstr ""
@@ -60730,10 +61275,12 @@ msgstr ""
 msgid "You cannot restart a Subscription that is not cancelled."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2333
 #: erpnext/selling/page/point_of_sale/pos_payment.js:281
 msgid "You cannot submit empty order."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2333
 #: erpnext/selling/page/point_of_sale/pos_payment.js:280
 msgid "You cannot submit the order without payment."
 msgstr ""
@@ -60750,6 +61297,7 @@ msgstr ""
 msgid "You don't have enough Loyalty Points to redeem"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:2588
 #: erpnext/selling/page/point_of_sale/pos_payment.js:583
 msgid "You don't have enough points to redeem."
 msgstr ""
@@ -60758,6 +61306,7 @@ msgstr ""
 msgid "You had {} errors while creating opening invoices. Check {} for more details"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:868
 #: erpnext/public/js/utils.js:954
 msgid "You have already selected items from {0} {1}"
 msgstr ""
@@ -60774,6 +61323,7 @@ msgstr ""
 msgid "You have to enable auto re-order in Stock Settings to maintain re-order levels."
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3544
 #: erpnext/selling/page/point_of_sale/pos_controller.js:308
 msgid "You have unsaved changes. Do you want to save the invoice?"
 msgstr ""
@@ -60782,6 +61332,7 @@ msgstr ""
 msgid "You haven't created a {0} yet"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:3942
 #: erpnext/selling/page/point_of_sale/pos_controller.js:767
 msgid "You must select a customer before adding an item."
 msgstr ""
@@ -60832,6 +61383,7 @@ msgstr ""
 msgid "Youtube Statistics"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:7599
 #: erpnext/public/js/utils/contact_address_quick_entry.js:86
 msgid "ZIP Code"
 msgstr ""
@@ -60899,6 +61451,7 @@ msgstr ""
 msgid "by {}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:9796
 #: erpnext/public/js/utils/sales_common.js:313
 msgid "cannot be greater than 100"
 msgstr ""
@@ -60921,6 +61474,7 @@ msgstr ""
 msgid "development"
 msgstr ""
 
+#: erpnext/public/dist/js/point-of-sale.bundle.WSZDOLT2.js:1099
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:450
 msgid "discount applied"
 msgstr ""
@@ -61053,6 +61607,7 @@ msgstr ""
 msgid "paid to"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:344
 #: erpnext/public/js/utils.js:394
 msgid "payments app is not installed. Please install it from {0} or {1}"
 msgstr ""
@@ -61330,7 +61885,7 @@ msgstr ""
 msgid "{0} created"
 msgstr ""
 
-#: erpnext/setup/doctype/company/company.py:196
+#: erpnext/setup/doctype/company/company.py:194
 msgid "{0} currency must be same as company's default currency. Please select another account."
 msgstr ""
 
@@ -61412,6 +61967,7 @@ msgstr ""
 msgid "{0} is mandatory for account {1}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:3272
 #: erpnext/public/js/controllers/taxes_and_totals.js:122
 msgid "{0} is mandatory. Maybe Currency Exchange record is not created for {1} to {2}"
 msgstr ""
@@ -61556,6 +62112,7 @@ msgstr ""
 msgid "{0} {1}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2365
 #: erpnext/public/js/utils/serial_no_batch_selector.js:254
 msgid "{0} {1} Manually"
 msgstr ""
@@ -61674,6 +62231,7 @@ msgstr ""
 msgid "{0} {1} status is {2}"
 msgstr ""
 
+#: erpnext/public/dist/js/erpnext.bundle.TT3TXXI7.js:2342
 #: erpnext/public/js/utils/serial_no_batch_selector.js:230
 msgid "{0} {1} via CSV File"
 msgstr ""
@@ -61868,5 +62426,15 @@ msgstr ""
 
 #: erpnext/accounts/doctype/bank_transaction/bank_transaction.py:347
 msgid "{} {} is not affecting bank account {}"
+msgstr ""
+
+#. Option for the 'Salary Adjustment' (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "休暇"
+msgstr ""
+
+#. Option for the 'Salary Adjustment' (Select) field in DocType 'Employee'
+#: erpnext/setup/doctype/employee/employee.json
+msgid "給与"
 msgstr ""
 
